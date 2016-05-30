@@ -91,7 +91,7 @@ As ICCs podem ser utilizadas para diversas finalidades, como:
 
 
 
--Controle de próteses e  robôs:
+-Controle de próteses e  robôs.
 
 
 
