@@ -89,7 +89,15 @@ As ICCs podem ser utilizadas para diversas finalidades, como:
 
 
 
+
+
 -Controle de próteses e  robôs:
+
+
+
+
+
+
 ![Paciente utilizando um braço biônico.](Imagens/figura8.jpg)
 
 
