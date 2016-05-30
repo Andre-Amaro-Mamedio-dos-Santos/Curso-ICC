@@ -1,0 +1,256 @@
+---
+title: Aula 1 - Introdução às Interfaces Cérebro Computador
+subtitle: Curso Introdutório de Interfaces Cérebro Computador
+author: Msc. Rodrigo Hübner, André Amaro, Victor Alflen.
+---
+
+# Curso Introdutório de Interfaces Cérebro Computador
+
+### Introdução
+O nosso cérebro possui aproximadamente 100 bilhões de neurônios, sendo que cada neurônio tem cerca de 7000 conexões. O comprimento dos filamentos nervosos de um cérebro pode ser estimado em milhões de quilômetros, e tudo isso está contido dentro de um único cérebro, “massa cinzenta” de cerca de 1,4kg. . Essa rede de conexões é chamada de “Conectoma”, e mapeá-lo é um dos maiores desafios da neurociência moderna. 
+
+### Interface Cérebro Computador (ICC) - Definição e Funcionamento
+
+ICC é um sistema de comunicação natural que gera sinais de controle utilizando sinais cerebrais, isto é, um sistema que traduz a atividade cerebral em comandos para um computador ou outros dispositivos, requerendo, assim, a atuação do sistema nervoso central (encéfalo e medula espinal) e do sistema nervoso periférico (nervos periféricos e terminação nervosas). A ideia é que você controle uma máquina com, simplesmente, seus pensamentos. O objetivo inicial da tecnologia ICC é dar às pessoas paralisadas uma outra maneira de se comunicar, uma forma a não depender do controle muscular.
+<p>
+A ideia essencial é extrair sinais cerebrais de áreas específicas do cérebro, após uma série de análises, a ICC transforma o sinal cerebral em uma mensagem para um dispositivo executar dado comando. A ideia é imitar o funcionamento natural do sistema nervoso, que transmite sinais via sistema nervoso periférico para os músculos correspondentes, que executam as ações efetivamente.
+Os meios de transmissão utilizados pelas ICCs são:
+<ul><li>- Canais Eferentes: Meios de transporte que fazem a transmissão de sinais do sistema nervoso central para os periféricos e, futuramente, para os músculos. Desta forma, estes canais são utilizados para o controle dos movimentos.
+</li><li>- Canais Aferentes: São meios de transporte para transmissão de sinais que possuem uma direção contrária aos canais eferentes, assim, transmitem sinais desde os sensores receptores até o sistema nervoso central. Esses canais são importantes para aprendizagem de habilidades motoras e tarefas hábeis, tais como tocar um instrumento musical.
+</li></ul></p>
+
+
+
+### Tipos de ICC
+Em relação ao posicionamento do hardware de captação de sinais cerebrais, ICCs são classificadas em:
+- ICC invasiva: Interfaces implantadas diretamente no interior do cérebro. Por estar em contato direto, o sinal é de maior qualidade, porém, pode causar cicatrizes no cérebro ou até mesmo matar neurônios. Sendo assim, a aplicação maior destas ICC são voltadas a usuários que realmente necessitem delas, como na implantação de próteses, tanto motoras como visuais.
+- ICC Semi-Invasiva: Geralmente realizados através de eletrocorticograma (ECoG), em que são implantados eletrodos no interior do crânio, porém na parte externa do cérebro. Este método apresenta menor risco cirúrgico e propensão a cicatrizes, se comparado com as ICC invasivas, porém, os sinais obtidos apresentam interferências.
+- ICC Não-Invasiva: Captação de sinal cerebral através de exames cerebrais que não envolvem contato direto com o cérebro, como o Eletroencefalograma (EEG). 
+
+![Legenda](Imagens/figura1.jpg "Screenshot of Feature A mockup")
+
+Quanto as atividades cerebrais do usuário necessárias para o funcionamento, as ICCs são classificadas em:
+- ICC ativa: Deriva de uma atividade concisa do usuário, sem a necessidade de estímulos externos, por exemplo, imaginação motora.
+- ICC reativa: Saída da aplicação depende de estímulos  externos, por exemplo SSVEP ou P300.
+- ICC passiva: Gerado por meio de atividades cerebrais involuntárias, com controle sem alguma finalidade específica, por exemplo, estresse e sonolência.
+
+### Estratégias Mentais e Padrões Cerebrais
+Medir a atividade cerebral de forma eficaz é um primeiro passo crítico para a interface cérebro-computador. No entanto, medir a atividade não é suficiente, pois a ICC não pode ler a mente ou decifrar pensamentos em geral. A ICC só pode detectar e classificar padrões de atividade nos sinais cerebrais em curso que estão associados com tarefas ou eventos específicos. O que o usuário tem de fazer para produzir esses padrões é determinada pela estratégia mental que o sistema da ICC emprega. A estratégia mental é a base de qualquer interface cérebro-computador. As duas estratégias mentais principais são: Atenção Seletiva e Monitoramento de Imagem.
+- Atenção Seletiva:
+<p>ICCs com base na atenção seletiva requerem estímulos externos fornecidos pelo sistema, como estímulos tácteis ou luzes piscando com diferentes frequências, sendo que cada estímulo está associado com um comando que controla a aplicação ligada a ICC.  Desta forma, a fim de selecionar um comando, o usuário têm a centrar a sua atenção para o estímulo correspondente. 
+</p><p>A atenção seletiva visual pode ser implementada com duas abordagens diferentes, que variam de acordo com os estímulos requeridos, estratégias mentais, e processamento de sinal. Estas abordagens são: P300 e SSVEP. 
+</p><p>ICCs baseadas em P300 dependem de estímulos que piscam em sucessão. Estes estímulos são normalmente símbolos que representam outros objetivos, como controlar um braço do robô ou robô móvel. A atenção seletiva para um símbolo provoca um padrão cerebral chamado P300, que se desenvolve no centro-parietal do cérebro, cerca de 300 ms após a apresentação do estímulo.
+</p><p>Assim como uma ICC P300, uma ICC baseada em SSVEP (estado estável evocado por potencias visuais) exige uma série de estímulos visuais, em que cada estímulo está associado a um comando específico. Em contraste com a abordagem do P300, estes estímulos não piscam sucessivamente; piscam continuamente com diferentes frequências no intervalo de 6-30 Hz. Os estímulos visuais se desenvolvem no córtex visual do cérebro, e tem a mesma frequência que o alvo do usuário. Isto é, se o estímulo alvo pisca a 16 Hz, o SSVEP resultante também irá piscar a 16 Hz. Portanto, uma SSVEP ICC pode determinar qual estímulo ocupa a atenção do usuário, olhando para a atividade SSVEP no córtex visual em uma frequência específica.
+</p><p>ICCs utilizando atenção seletiva são bastante confiáveis, e podem permitir uma comunicação rápida. Além disso, estas abordagens não requerem treinamento significativo, isto é, os usuários podem produzir P300s e SSVEPs sem qualquer formação a priori. Muitos tipos de P300 e SSVEP ICCs têm sido desenvolvidos. Uma desvantagem de ambos é que eles podem exigir que o usuário mude o olhar, o que é inviável em alguns pacientes severos que perderam a capacidade de mudar o olhar. 
+</p>
+- Monitoramento de Imagem:
+
+### Exemplos de ICC
+ - Espectroscopia funcional por infravermelho (fNIRS): Faz a medição de oxigênio no cérebro através de sensores de espectrometria. São calculadas as variações nas concentrações de oxiemoglobina (HbO2), deoxiemoglobina (HHb) e hemoglobina total (HbT), o que permite avaliar de forma quantitativa e qualitativa a hemodinâmica e a ativação neural.
+![Equipamento de Espectroscopia em usuário.](Imagens/figura2.jpg)
+
+
+
+ - Eletroencefalograma (EEG): Os sinais são medidos utilizando-se eletrodos, posicionados na superfície do couro cabeludo, que é sensível a mudanças de potencial ocorridas após a sinapse. Essas mudanças de potencial são criadas em áreas de polarização e despolarização, que se dão quando os neurotransmissores são disparados.   
+É importante lembrar que, pelo fato de os eletrodos estarem localizados na superfície do couro cabeludo, o sinal captado recebe interferência de sinais musculares, além de sofrer um espalhamento causado pela reflexão do sinal no crânio. 
+![Aparelho EEG em paciente.](Imagens/figura3.jpg)
+
+
+
+Outra característica das interfaces por eletroencefalograma é a sua natureza oscilatória que possibilita a análise dos dados utilizando-se da teoria de processamento de sinais.
+![EEG de um adulto fazendo multiplicações.](Imagens/figura4.jpg)
+
+
+Em aplicações com EGG, os eletrodos são posicionados de acordo com o Sistema Internacional de posicionamento 10:20 para capturar as diferenças de potencial das diferentes áreas do cérebro.
+![Sistema de Posicionamento de Eletrodos 10:20.](Imagens/figura5.jpg )
+
+###Processamento de Sinais
+
+A ICC obtém os sinais cerebrais e os processa em tempo real, de modo a detectar padrões que refletem a intenção do usuário.
+Este processamento de sinal é dividido em três fases:
+Pré-processamento, Extração de características e Detecção e Classificação.
+- Pré-processamento: tem por objetivo simplificar as operações de processamento subsequentes sem alterar informações relevantes. Nesta etapa, busca-se melhorar a qualidade do sinal obtido, assim é melhorada a relação sinal-ruído (SNR).
+- Extração de Características: Os padrões cerebrais utilizados nas ICCs são caracterizados por determinadas características pré-gravadas. Por exemplo, amplitudes e frequências são características essenciais no método de atenção seletiva. Desta forma, a extração de características pode ser vista como um outro passo para preparar os sinais a fim de facilitar o processamento de sinal subsequente, a detecção e classificação.
+- Detecção e classificação de padrões cerebrais: é a principal tarefa no processamento de sinais em ICCs. O usuário provoca certos padrões cerebrais através da realização de tarefas mentais de acordo com as estratégias mentais; as ICCs os detectam e classificam. Nesta etapa, a ICC traduz estes padrões em comandos apropriados para as respectivas aplicações.
+
+![Esquematização do funcionamento de uma ICC - Os sinais capturados são amplificados para serem enviados a um filtro que produz um conjunto de características relevantes, após a filtragem uma interface de controle converte lógicos interpretados em dados semânticos, que são enviados a um controlador de dispositivo qualquer (por exemplo, uma cadeira de rodas automatizada. Por fim, o controlador do dispositivo gera ação desejada pelo usuário.](Imagens/figura6.jpg)
+
+### Aspectos do Estado Cognitivo
+ - Qualquer aspecto do estado do cérebro físico que pode ser suficientemente medido com um único julgamento.
+ - Estado tônico: grau de "relaxamento", carga cognitiva.
+ - Estado fásico: atenção alternada, tipo de movimento imaginado.
+ - Estado relacionado com o evento: surpreso / não surpreso, erro cometido, evento observado / não observado, etc.
+
+### Áreas de Aplicação e Exemplos
+As ICCs podem ser utilizadas para diversas finalidades, como:
+
+ - Desabilitados severos: Permitir as pessoas severamente debilitadas de movimento uma outra maneira de se comunicar, que não dependa de controle muscular. Ex: Tetraplégicos, Pessoas com ELA (Esclerose Lateral Amiotrófica), etc. Os programas usados nestas aplicações são denominados Speller, e são uma espécie sistema ortográfico baseado em EEG pessoal.
+
+
+![Paciente com desabilitação severa utilizando EEG.](Imagens/figura7.jpg)
+
+
+
+
+
+
+
+
+
+
+ - Controle de próteses e  robôs.
+
+
+
+
+
+
+![Paciente utilizando um braço biônico.](Imagens/figura8.jpg)
+
+
+
+
+
+
+
+
+
+
+
+ - Aplicações Forenses: Detecção de mentiras, avaliação de confiança, etc.
+![Utilização de ICC para detecção de mentiras.](Imagens/figura9.jpg)
+
+
+
+
+
+
+ - Monitoramento de Operações Diversas: Intenção de frenagem, intenção de mudança de pista. Monitoramento/Alertas para pilotos, controle de tráfico aéreo, etc.
+![Aplicação de ICC para apoio em direção.](Imagens/figura10.jpg)
+
+
+
+
+
+
+
+ - Neurociência: Definição de padrões para os estados do cérebro, de modo a permitir o estudo do conteúdo da informação e representações para questões neuro-científicas.
+
+
+
+
+![Mapeamento do estado do cérebro utilizando ICC.](Imagens/figura11.jpg)
+
+
+
+
+
+
+ - Saúde: Reconhecimento do estágio do sono, neuro reabilitação, etc.
+
+
+
+![Reconhecimento do estágio do sono com ICC.](Imagens/figura12.jpg)
+
+
+
+
+
+
+ - Entretenimento: ICCs são usadas no entretenimento principalmente por sua fácil detecção de resposta. Algumas atividades de entretenimento com ICC são os Jogos, “Controle de Pensamento”, etc.
+![Aplicação ICC para entretenimento.](Imagens/figura13.jpg)
+
+
+
+
+
+
+### Observações
+As respostas de uma aplicação ICC podem mudar para diferentes usuários. Desta forma, antes de testar um sistema ICC, este deve ser calibrado. 
+Operações sobre estas aplicações são fundamentalmente estatísticas, fato decorrente da diversidade do sinal para pessoas  diferentes ou mesmo da mesma pessoa em diferentes momentos do mesmo experimento. 
+
+#Desafios científicos
+
+O terceiro módulo da introdução é sobre os desafios científicos atrás da interface cérebro computador (BCI). Então, a dificuldade do BCI se dá devido a sua complexidade e, por isso, há a necessidade de uma palestra.
+
+As ICC necessitam uma multidisciplinariedade. Muitos conhecimentos são necessários para entendê-la e aplicá-la. A teoria é compartilhada com as de processamento de sinais, aprendizado de máquina, inteligência computacional, neurociência, ciência do aprendizado (ciência cognitiva). Na outra via, são necessários conhecimentos de neurociência, psicologia, som e um pouco de física.
+
+Os problemas das ICC são parecidos com os de computação visual, ao tentar encontrar padrões que possam descrever um cachorro, ou uma casa, por exemplo. Também os problemas no reconhecimento de fala são parecidos, porque existem muitas estruturas de tempo entre polls (values) e wards. Em vez de som, tem-se o EGG.
+ 
+Problemas parecidos aparecem em outras áreas também, como nas análises de séries temporais, nos sistemas de controle e na robótica. Nos dois últimos a semelhança se dá devido à tentativa de tornar o sistema mais utilizável pelas pessoas.
+
+##Razões para a Complexidade das ICCs
+
+Há uma razão específica e chave para entender o porquê das ICCs serem complexas. Qualquer processamento que se tentar fazer com os dados obtidos de uma ICC dependem de uma série de parâmetros, os quais não são conhecidos anteriormente. Essa incerteza acontece porque os parâmetros podem ser específicos para a pessoa, ou específicos para a tarefa que ela está realizando.
+
+Um exemplo da alta variabilidade pode ser encontrada em quatro pessoas fazendo a mesma tarefa. Pode-se definir alturas e padrões para as quatro pessoas. Se você utilizar os padrões de uma pessoa em outra, você pode obter uma saída que é exatamente o contrário da realidade. Então, é necessário adaptar os padrões para cada pessoa para se fazer um bom trabalho.
+
+###Razões para a variabilidade
+
+Existem várias razões para essa variabilidade. Uma delas é que o córtex cerebral é diferente para cada pessoa, até mesmo para gêmeos monozigóticos. Isso acontece da mesma maneira que as impressões digitais.
+Paras os mapas funcionais, eles podem ser mais largos ou mais estreitos para determinadas pessoas, ou simplesmente terem pequenas variações de sessão para sessão, devido ao posicionamento dos sensores serem um pouco diferente entre elas.
+Também a dinâmica cerebral varia, pois elas não são estacionárias, podendo variar de segundo para segundo, minuto para minuto, semana para semana, ou até mesmo entre anos ou décadas. É por este motivo que há a necessidade de escalas de tempo. Entre uma semana e outra haverá mudanças, e o sistema perderá eficiência se ele não for adaptado.
+
+Os ruídos na leitura dos sinais se mostram como um grande desafio, dificultando a obtenção de sinais significativos. As atividades cerebrais úteis são difíceis de se obter, pois são muito menores se comparadas com as interferências, e a atividade natural e de manutenção do próprio cérebro.
+Outro motivo é que as partes que geralmente são analisadas têm outras funções ou fazem outras coisas além daquelas que se quer analisar. Assim, é difícil analisar apenas um fenômeno. Digamos que você estava medindo a imaginação de movimento, o que acontece é que você também obtém experiências sensoriais no mesmo comprimento. 
+
+Pode ser muito enganador na ciência se você está olhando algo e diz: “estou fazendo isso perfeitamente”, e quando você tenta a mesma tecnologia em outra situação, os resultados são completamente errados.
+Nós não temos um completo entendimento sobre como o cérebro trabalha, ainda há muitas incertezas. Em alguns casos não sabemos nem se quer o que procurar. 
+
+Há algo especifico do EEG. Você pode ter 64 sensores, mas cada sensor dá basicamente a mesma série temporal, com muito pequenas diferenças, que variam conforme a produção do cérebro. Por esta razão, tem que desembaralhar-se os sinais computacionalmente, o que requer algumas estatísticas.
+
+##Consequências
+
+É necessário um processamento sofisticado dos sinais.
+Qualquer coisa que seja feita deve ser estatística, porque tem se muita incerteza quanto ao significado do sinal e por que há muitos detalhes que não se sabe com antecedência.
+
+As ICC precisam ser calibradas com alguns dados iniciais e alguns parâmetros precisam ser ajustados. Quanto mais informação disponível, melhor. Tipos de informações: 
+
+- Sobre a pessoa.
+- Sobre a tarefa a ser realizada.
+- Exemplos da atividade cerebral registrada da pessoa. Exemplo: um grupo que representa quando ela está surpresa e um quando não está. 
+- Bancos de dados que contenham dados de centenas de pessoas que tiveram o mesmo tipo de fenômeno expresso, que podem ser usados para construir a sua solução.
+
+
+#Ferramentas disponíveis
+
+##Hardware:
+
+###Emotiv EPOC+
+
+Design flexível e adaptável. Comunicação wireless e recarregável, com bateria de lítio que pode durar até 12 horas de uso contínuo. É compatível com Windows, Linux, OSX, Android e iOS. Garante a medição do cérebro inteiro, com uma densa resolução espacial. Acessa medições de performance, comandos mentais e expressões faciais. Eletrodos baseados em solução salina, sem a necessidade do uso de gel. Para se obter os dados brutos do EPOC+, é necessário comprar uma licença. 
+Possui 14 canais, e uma banda de leitura de 0.2Hz a 43Hz
+
+###Olimex EEG SMT
+
+É um aparelho de baixo custo produzido pela Olimex, com seu uso voltado para alguns tipos de treinamentos mentais e para experimentos simples de ICC. Utiliza apenas 5 eletrodos, sendo 5 passivos ou 4 ativos e um passivo para DLR. Baseado no projeto OpenEGG.
+
+Características:
+
+- Segue as recomendações de design do OpenEGG
+- Apropriado para sinais entre 0.16 Hz e 59.00Hz
+- Compatível com diversas ferramentas de visualização (BrainBay, OpenVibe, ElecGurum foram testados pelos produtores, para outros há uma grande chance se for compatível com OpenEEG ModularEEG firmware P2).
+- Pronto para o uso, testado e calibrado.
+
+###Open BCI
+
+
+##Software
+
+###OpenViBE
+Desenvolvido no INRIA e implementado em C++. É voltado para pessoas que não sabem programar, pois é focado na programação visual e na programação de fluxo de dados. Possui um suporte fraco para fluxos complexos de dados, como aprendizado de máquina e processamento adaptativo de sinais.
+Dá suporte a uma grande gama de hardwares para ICC e pode ser utilizado no Linux e no Windows. Por possuir uma estrutura complexa, é difícil de criar scripts para estender ou aumentar suas funcionalidades. 
+
+###Open BCI GUI
+
+Pode ser utilizado no MAC OS X, no Windows e no Linux. Possui muitas ferramentas criadas pela comunidade que são compatíveis com o sistema.
+
+###Open BCI Python library
+
+É uma biblioteca em Python para trabalhar com o hardware do OpenBCI. Foi projetada para ser familiar à programação em Python. Tem o propósito de permitir que os programadores acessem a tecnologia do OpenBCI, tanto para coletar dados quanto para escrever programas que usem os dados diretamente, sem a necessidade de um armazenamento anterior.
+
+###Lab Streamer Layer 
+
+Sistema unificado de transporte de sinal, sincronização de tempo e coleta de dados distribuído para fins de pesquisa. Utilizado em experimentos de pesquisa que manuseiam redes, sincronização temporal, um quase acesso em tempo real e, opcionalmente, um hardware para a centralização da visualização e da gravação dos dados. Possui versões escritas em C, C++, Python, Java, C# e MATLAB). A biblioteca é de propósito geral, open source, e funciona nos sistemas Windows, Linux e Mac.
+
+Um conjunto de ferramentas escritos em cima da biblioteca está disponível na lab network.
