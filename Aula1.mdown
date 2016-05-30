@@ -167,9 +167,9 @@ As ICCs podem ser utilizadas para diversas finalidades, como:
 
 Dificuldades são encontradas quando se trabalha com ICC, sendo estas provenientes da alta complexidade existente.
 
-As ICC necessitam uma multidisciplinariedade. Muitos conhecimentos são necessários para entendê-la e aplicá-la. A teoria é compartilhada com as de processamento de sinais, aprendizado de máquina, inteligência computacional, neurociência, ciência do aprendizado (ciência cognitiva). Na outra via, são necessários conhecimentos de neurociência, psicologia, som e um pouco de física.
+As ICCs necessitam uma multidisciplinariedade, isto é, muitos conhecimentos são necessários para entendê-las e aplicá-las corretamente. A teoria é compartilhada com as de processamento de sinais, aprendizado de máquina, inteligência computacional, neurociência e ciência do aprendizado (ciência cognitiva), além de conhecimentos da área de psicologia, acústica e outros ramos da física.
 
-Os problemas das ICC são parecidos com os de computação visual, ao tentar encontrar padrões que possam descrever um cachorro, ou uma casa, por exemplo. Também os problemas no reconhecimento de fala são parecidos, porque existem muitas estruturas de tempo entre polls (values) e wards. Em vez de som, tem-se o EGG.
+Os problemas das ICCs são parecidos com os de computação visual, ao tentar encontrar padrões que possam descrever um cachorro, ou uma casa, por exemplo. Também os problemas no reconhecimento de fala são parecidos, porque existem muitas estruturas de tempo entre polls (values) e wards. Em vez de som, tem-se o EGG.
  
 Problemas parecidos aparecem em outras áreas também, como nas análises de séries temporais, nos sistemas de controle e na robótica. Nos dois últimos a semelhança se dá devido à tentativa de tornar o sistema mais utilizável pelas pessoas.
 
