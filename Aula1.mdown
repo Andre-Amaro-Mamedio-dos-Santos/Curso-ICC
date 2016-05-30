@@ -23,7 +23,7 @@ Em relação ao posicionamento do hardware de captação de sinais cerebrais, IC
 - ICC invasiva: Interfaces implantadas diretamente no interior do cérebro. Por estar em contato direto, o sinal é de maior qualidade, porém, pode causar cicatrizes no cérebro ou até mesmo matar neurônios. Sendo assim, a aplicação maior destas ICC são voltadas a usuários que realmente necessitem delas, como na implantação de próteses, tanto motoras como visuais.
 - ICC Semi-Invasiva: Geralmente realizados através de eletrocorticograma (ECoG), em que são implantados eletrodos no interior do crânio, porém na parte externa do cérebro. Este método apresenta menor risco cirúrgico e propensão a cicatrizes, se comparado com as ICC invasivas, porém, os sinais obtidos apresentam interferências.
 	ICC Não-Invasiva: Captação de sinal cerebral através de exames cerebrais que não envolvem contato direto com o cérebro, como o Eletroencefalograma (EEG). 
-<img src="Imagens/figura1.jpg" alt="Legenda" />
+[Legenda]: Imagens/figura1.jpg" "Screenshot of Feature A mockup" 
 	
 Quanto as atividades cerebrais do usuário necessárias para o funcionamento, as ICCs são classificadas em:
 - ICC ativa: Deriva de uma atividade concisa do usuário, sem a necessidade de estímulos externos, por exemplo, imaginação motora.
