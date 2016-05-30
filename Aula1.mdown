@@ -84,23 +84,64 @@ As ICCs podem ser utilizadas para diversas finalidades, como:
 -Desabilitados severos: Permitir as pessoas severamente debilitadas de movimento uma outra maneira de se comunicar, que não dependa de controle muscular. Ex: Tetraplégicos, Pessoas com ELA (Esclerose Lateral Amiotrófica), etc. Os programas usados nestas aplicações são denominados Speller, e são uma espécie sistema ortográfico baseado em EEG pessoal.
 ![Paciente com desabilitação severa utilizando EEG.](Imagens/figura7.jpg)
 
+
+
+
+
+
 -Controle de próteses e  robôs:
 ![Paciente utilizando um braço biônico.](Imagens/figura8.jpg)
+
+
+
+
+
+
+
+
+
+
 
 -Aplicações Forenses: Detecção de mentiras, avaliação de confiança, etc.
 ![Utilização de ICC para detecção de mentiras.](Imagens/figura9.jpg)
 
+
+
+
+
+
 -Monitoramento de Operações Diversas: Intenção de frenagem, intenção de mudança de pista. Monitoramento/Alertas para pilotos, controle de tráfico aéreo, etc.
 ![Aplicação de ICC para apoio em direção.](Imagens/figura10.jpg)
+
+
+
+
+
+
 
 -Neurociência: Definição de padrões para os estados do cérebro, de modo a permitir o estudo do conteúdo da informação e representações para questões neuro-científicas.
 ![Mapeamento do estado do cérebro utilizando ICC.](Imagens/figura11.jpg)
 
+
+
+
+
+
 -Saúde: Reconhecimento do estágio do sono, neuro reabilitação, etc.
 ![Reconhecimento do estágio do sono com ICC.](Imagens/figura12.jpg)
 
+
+
+
+
+
 -Entretenimento: ICCs são usadas no entretenimento principalmente por sua fácil detecção de resposta. Algumas atividades de entretenimento com ICC são os Jogos, “Controle de Pensamento”, etc.
 ![Aplicação ICC para entretenimento.](Imagens/figura13.jpg)
+
+
+
+
+
 
 ### Observações
 As respostas de uma aplicação ICC podem mudar para diferentes usuários. Desta forma, antes de testar um sistema ICC, este deve ser calibrado. 
