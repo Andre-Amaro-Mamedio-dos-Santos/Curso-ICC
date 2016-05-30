@@ -9,10 +9,8 @@ author: Msc. Rodrigo Hübner, André Amaro, Victor Alflen.
 ### Introdução
 O nosso cérebro possui aproximadamente 100 bilhões de neurônios, sendo que cada neurônio tem cerca de 7000 conexões. O comprimento dos filamentos nervosos de um cérebro pode ser estimado em milhões de quilômetros, e tudo isso está contido dentro de um único cérebro, “massa cinzenta” de cerca de 1,4kg. . Essa rede de conexões é chamada de “Conectoma”, e mapeá-lo é um dos maiores desafios da neurociência moderna. 
 
-### Interface Cérebro Computador (ICC) - Definição
+### Interface Cérebro Computador (ICC) - Definição e Funcionamento
 ICC é um sistema de comunicação natural que gera sinais de controle utilizando sinais cerebrais, isto é, um sistema que traduz a atividade cerebral em comandos para um computador ou outros dispositivos, requerendo, assim, a atuação do sistema nervoso central (encéfalo e medula espinal) e do sistema nervoso periférico (nervos periféricos e terminação nervosas). A ideia é que você controle uma máquina com, simplesmente seus pensamentos. O objetivo inicial da tecnologia ICC é dar às pessoas paralisadas uma outra maneira de se comunicar, uma forma a não depender do controle muscular.
-
-### Funcionamento
 A ideia essencial é extrair sinais cerebrais de áreas específicas do cérebro, após uma série de análises, a ICC transforma o sinal cerebral em uma mensagem para um dispositivo executar dado comando. A ideia é imitar o funcionamento natural do sistema nervoso, que transmite sinais via sistema nervoso periférico para os músculos correspondentes, que executam as ações efetivamente.
 Os meios de transmissão utilizados pelas ICCs são:
 - Canais Eferentes: Meios de transporte que fazem a transmissão de sinais do sistema nervoso central para os periféricos e, futuramente, para os músculos. Desta forma, estes canais são utilizados para o controle dos movimentos.
