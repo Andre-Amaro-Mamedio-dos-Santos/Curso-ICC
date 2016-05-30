@@ -41,12 +41,12 @@ ICCs utilizando atenção seletiva são bastante confiáveis, e podem permitir u
 - Monitoramento de Imagem:
 
 ### Exemplos de ICC
-Espectroscopia funcional por infravermelho (fNIRS): Faz a medição de oxigênio no cérebro através de sensores de espectrometria. São calculadas as variações nas concentrações de oxiemoglobina (HbO2), deoxiemoglobina (HHb) e hemoglobina total (HbT), o que permite avaliar de forma quantitativa e qualitativa a hemodinâmica e a ativação neural.
+ - Espectroscopia funcional por infravermelho (fNIRS): Faz a medição de oxigênio no cérebro através de sensores de espectrometria. São calculadas as variações nas concentrações de oxiemoglobina (HbO2), deoxiemoglobina (HHb) e hemoglobina total (HbT), o que permite avaliar de forma quantitativa e qualitativa a hemodinâmica e a ativação neural.
 ![Equipamento de Espectroscopia em usuário.](Imagens/figura2.jpg)
 
 
 
-### Eletroencefalograma (EEG)
+ - Eletroencefalograma (EEG)
 
 Os sinais são medidos utilizando-se eletrodos, posicionados na superfície do couro cabeludo, que é sensível a mudanças de potencial ocorridas após a sinapse. Essas mudanças de potencial são criadas em áreas de polarização e despolarização, que se dão quando os neurotransmissores são disparados.   
 É importante lembrar que, pelo fato de os eletrodos estarem localizados na superfície do couro cabeludo, o sinal captado recebe interferência de sinais musculares, além de sofrer um espalhamento causado pela reflexão do sinal no crânio. 
