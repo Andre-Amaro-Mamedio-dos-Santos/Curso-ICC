@@ -48,7 +48,7 @@ Espectroscopia funcional por infravermelho (fNIRS): Faz a medição de oxigênio
 
 Os sinais são medidos utilizando-se eletrodos, posicionados na superfície do couro cabeludo, que é sensível a mudanças de potencial ocorridas após a sinapse. Essas mudanças de potencial são criadas em áreas de polarização e despolarização, que se dão quando os neurotransmissores são disparados.   
 É importante lembrar que, pelo fato de os eletrodos estarem localizados na superfície do couro cabeludo, o sinal captado recebe interferência de sinais musculares, além de sofrer um espalhamento causado pela reflexão do sinal no crânio. 
-![Aparelho EEG em paciente.](figura3.jpg)
+![Aparelho EEG em paciente.](Imagens/figura3.jpg)
 Outra característica das interfaces por eletroencefalograma é a sua natureza oscilatória que possibilita a análise dos dados utilizando-se da teoria de processamento de sinais.
 ![EEG de um adulto fazendo multiplicações.](Imagens/figura4.jpg)	
 Os eletrodos são posicionados de acordo com o Sistema Internacional de posicionamento 10:20 para capturar as diferenças de potencial das diferentes áreas do cérebro.
