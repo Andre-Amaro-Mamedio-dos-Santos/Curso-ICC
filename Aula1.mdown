@@ -120,6 +120,10 @@ As ICCs podem ser utilizadas para diversas finalidades, como:
 
 
 -Neurociência: Definição de padrões para os estados do cérebro, de modo a permitir o estudo do conteúdo da informação e representações para questões neuro-científicas.
+
+
+
+
 ![Mapeamento do estado do cérebro utilizando ICC.](Imagens/figura11.jpg)
 
 
@@ -128,6 +132,9 @@ As ICCs podem ser utilizadas para diversas finalidades, como:
 
 
 -Saúde: Reconhecimento do estágio do sono, neuro reabilitação, etc.
+
+
+
 ![Reconhecimento do estágio do sono com ICC.](Imagens/figura12.jpg)
 
 
