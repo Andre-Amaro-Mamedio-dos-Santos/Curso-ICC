@@ -80,7 +80,11 @@ Pré-processamento, Extração de características e Detecção e Classificaçã
 As ICCs podem ser utilizadas para diversas finalidades, como:
 
  - Desabilitados severos: Permitir as pessoas severamente debilitadas de movimento uma outra maneira de se comunicar, que não dependa de controle muscular. Ex: Tetraplégicos, Pessoas com ELA (Esclerose Lateral Amiotrófica), etc. Os programas usados nestas aplicações são denominados Speller, e são uma espécie sistema ortográfico baseado em EEG pessoal.
+
+
 ![Paciente com desabilitação severa utilizando EEG.](Imagens/figura7.jpg)
+
+
 
 
 
@@ -170,7 +174,7 @@ Os problemas das ICC são parecidos com os de computação visual, ao tentar enc
  
 Problemas parecidos aparecem em outras áreas também, como nas análises de séries temporais, nos sistemas de controle e na robótica. Nos dois últimos a semelhança se dá devido à tentativa de tornar o sistema mais utilizável pelas pessoas.
 
-##Complexidade das ICCs
+##Razões para a Complexidade das ICCs
 
 Há uma razão específica e chave para entender o porquê das ICCs serem complexas. Qualquer processamento que se tentar fazer com os dados obtidos de uma ICC dependem de uma série de parâmetros, os quais não são conhecidos anteriormente. Essa incerteza acontece porque os parâmetros podem ser específicos para a pessoa, ou específicos para a tarefa que ela está realizando.
 
