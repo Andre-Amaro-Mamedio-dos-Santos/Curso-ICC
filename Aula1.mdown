@@ -56,7 +56,7 @@ Outra característica das interfaces por eletroencefalograma é a sua natureza o
 ![EEG de um adulto fazendo multiplicações.](Imagens/figura4.jpg)
 
 
-Os eletrodos são posicionados de acordo com o Sistema Internacional de posicionamento 10:20 para capturar as diferenças de potencial das diferentes áreas do cérebro.
+Em EGG, os eletrodos são posicionados de acordo com o Sistema Internacional de posicionamento 10:20 para capturar as diferenças de potencial das diferentes áreas do cérebro.
 ![Sistema de Posicionamento de Eletrodos 10:20.](Imagens/figura5.jpg )
 
 ###Processamento de Sinais
