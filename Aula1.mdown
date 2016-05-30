@@ -81,7 +81,7 @@ Pré-processamento, Extração de características e Detecção e Classificaçã
 ### Áreas de Aplicação e Exemplos
 As ICCs podem ser utilizadas para diversas finalidades, como:
 
- - Desabilitados severos: Permitir as pessoas severamente debilitadas de movimento uma outra maneira de se comunicar, que não dependa de controle muscular. Ex: Tetraplégicos, Pessoas com ELA (Esclerose Lateral Amiotrófica), etc. Os programas usados nestas aplicações são denominados Speller, e são uma espécie sistema ortográfico baseado em EEG pessoal.
+ - <b>Desabilitados severos:</b> Permitir as pessoas severamente debilitadas de movimento uma outra maneira de se comunicar, que não dependa de controle muscular. Ex: Tetraplégicos, Pessoas com ELA (Esclerose Lateral Amiotrófica), etc. Os programas usados nestas aplicações são denominados Speller, e são uma espécie sistema ortográfico baseado em EEG pessoal.
 
 
 ![Paciente com desabilitação severa utilizando EEG.](Imagens/figura7.jpg)
