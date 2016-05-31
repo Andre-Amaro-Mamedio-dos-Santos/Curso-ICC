@@ -163,46 +163,45 @@ As ICCs podem ser utilizadas para diversas finalidades, como:
 
 
 
-#Desafios científicos (Serão feitas diversas alterações na aula a partir deste ponto do texto ainda hoje 30-05-2016). Att, Andre Amaro.
+#Desafios científicos 
 
 Dificuldades são encontradas quando se trabalha com ICC, sendo estas provenientes da alta complexidade existente.
 
 As ICCs necessitam uma multidisciplinariedade, isto é, muitos conhecimentos são necessários para entendê-las e aplicá-las corretamente. A teoria é compartilhada com as de processamento de sinais, aprendizado de máquina, inteligência computacional, neurociência e ciência do aprendizado (ciência cognitiva), além de conhecimentos da área de psicologia, acústica e outros ramos da física.
 
-Os problemas das ICCs são parecidos com os de computação visual, ao tentar encontrar padrões que possam descrever um cachorro, ou uma casa, por exemplo. Também os problemas no reconhecimento de fala são parecidos, porque existem muitas estruturas de tempo entre polls (values) e wards. Em vez de som, tem-se o EGG.
+Os problemas encontrados em ICCs são parecidos com diversos outros encontrados na computação em geral: Na computação visual, ao tentar encontrar padrões que possam descrever uma casa,por exemplo. No reconhecimento de fala, porque existem muitas estruturas de tempo entre polls (values) e wards, sendo que,em vez de som, tem-se o EGG.
  
-Problemas parecidos aparecem em outras áreas também, como nas análises de séries temporais, nos sistemas de controle e na robótica. Nos dois últimos a semelhança se dá devido à tentativa de tornar o sistema mais utilizável pelas pessoas.
+Também são encontrados problemas similares em outras áreas, como nas análises de séries temporais, nos sistemas de controle e na robótica. Nos dois últimos a semelhança se dá devido à tentativa de tornar o sistema mais utilizável pelas pessoas.
 
 ##Razões para a Complexidade das ICCs
 
-Há uma razão específica para entender o porquê das ICCs serem complexas. Qualquer processamento que se tentar fazer com os dados obtidos de uma ICC dependem de uma série de parâmetros, os quais não são conhecidos anteriormente. Essa incerteza acontece porque os parâmetros podem ser específicos para a pessoa, ou específicos para a tarefa que ela está realizando.
+Há uma razão específica para entender o porquê das ICCs serem complexas. Qualquer processamento feito com os dados obtidos de uma ICC depende de uma série de parâmetros, os quais não são conhecidos a priori. Essa incerteza acontece porque os parâmetros podem ser específicos para cada a pessoa, ou específicos para a tarefa que ela está realizando.
 
-Um exemplo da alta variabilidade pode ser encontrada em quatro pessoas fazendo a mesma tarefa. Pode-se definir alturas e padrões para as quatro pessoas. Se você utilizar os padrões de uma pessoa em outra, você pode obter uma saída que é exatamente o contrário da realidade. Então, é necessário adaptar os padrões para cada pessoa para se fazer um bom trabalho.
+Um exemplo da alta variabilidade pode ser encontrada em quatro pessoas fazendo a mesma tarefa. Pode-se definir alturas e padrões para as quatro pessoas. Se você utilizar os padrões de uma pessoa em outra, você pode obter uma saída contrária a realidade. Então, é necessário adaptar os padrões para cada pessoa para se fazer um bom trabalho.
 
 ###Razões para a variabilidade
 
 Existem várias razões para essa variabilidade. Uma delas é que o córtex cerebral é diferente para cada pessoa, até mesmo para gêmeos monozigóticos. Isso acontece da mesma maneira que as impressões digitais.
-Paras os mapas funcionais, eles podem ser mais largos ou mais estreitos para determinadas pessoas, ou simplesmente terem pequenas variações de sessão para sessão, devido ao posicionamento dos sensores serem um pouco diferente entre elas.
-Também a dinâmica cerebral varia, pois elas não são estacionárias, podendo variar de segundo para segundo, minuto para minuto, semana para semana, ou até mesmo entre anos ou décadas. É por este motivo que há a necessidade de escalas de tempo. Entre uma semana e outra haverá mudanças, e o sistema perderá eficiência se ele não for adaptado.
-
-Os ruídos na leitura dos sinais se mostram como um grande desafio, dificultando a obtenção de sinais significativos. As atividades cerebrais úteis são difíceis de se obter, pois são muito menores se comparadas com as interferências, e a atividade natural e de manutenção do próprio cérebro.
+Com relação aos mapas funcionais, eles podem ser mais largos ou mais estreitos para determinadas pessoas, ou simplesmente terem pequenas variações de sessão para sessão, devido ao posicionamento dos sensores serem um pouco diferente entre elas.
+Outro razão importante é a dinâmica cerebral, que varia constantemente. Não sendo estacionária, pode variar de segundo para segundo, minuto para minuto, semana para semana, ou até mesmo entre anos ou décadas. É por este motivo que há a necessidade de escalas de tempo. Entre uma semana e outra haverá mudanças, e o sistema perderá eficiência se ele não for adaptado.
+<blockquote></blockquote>
+Os ruídos na leitura dos sinais se mostram como um grande desafio, dificultando a obtenção de sinais significativos. As atividades cerebrais úteis são de difícil obtenção, pois são muito menores se comparadas com as interferências, e a atividade natural e de manutenção do próprio cérebro.
 Outro motivo é que as partes que geralmente são analisadas têm outras funções ou fazem outras coisas além daquelas que se quer analisar. Assim, é difícil analisar apenas um fenômeno. Digamos que você estava medindo a imaginação de movimento, o que acontece é que você também obtém experiências sensoriais no mesmo comprimento. 
 
-Pode ser muito enganador na ciência se você está olhando algo e diz: “estou fazendo isso perfeitamente”, e quando você tenta a mesma tecnologia em outra situação, os resultados são completamente errados.
-Nós não temos um completo entendimento sobre como o cérebro trabalha, ainda há muitas incertezas. Em alguns casos não sabemos nem se quer o que procurar. 
+Em meio a estas considerações, a ciência pode ser muito enganadora; você pode olhar algo e dizer: “estou fazendo isso perfeitamente”, e quando você tenta a mesma tecnologia em outra situação, os resultados são completamente diferentes. 
+A ciência ainda não tem um completo entendimento sobre como o cérebro trabalha, há ainda muitas incertezas. Em alguns casos não sabemos nem se quer o que procurar. 
 
-Há algo especifico do EEG. Você pode ter 64 sensores, mas cada sensor dá basicamente a mesma série temporal, com muito pequenas diferenças, que variam conforme a produção do cérebro. Por esta razão, tem que desembaralhar-se os sinais computacionalmente, o que requer algumas estatísticas.
+Uma situação é específica do EEG: Você pode ter 64 sensores, mas cada sensor dá basicamente a mesma série temporal, com diferenças muito pequenas, que variam conforme a produção do cérebro. Por esta razão, tem que desembaralhar-se os sinais computacionalmente, o que requer algumas estatísticas.
 
 ##Consequências
 
  - É necessário um processamento sofisticado dos sinais.
  - Qualquer coisa que seja feita deve ser estatística, já que se tem muita incerteza quanto ao significado do sinal, já que muitos detalhes não são conhecidos com antecedência.
 
-As ICC precisam ser calibradas com alguns dados iniciais e alguns parâmetros precisam ser ajustados. Quanto mais informação disponível, melhor. Tipos de informações: 
-
+As ICC precisam ser calibradas com alguns dados iniciais e alguns parâmetros precisam ser ajustados. Quanto mais informação disponível, melhor. Segue alguns tipos de informações relevantes: 
 - Sobre a pessoa.
 - Sobre a tarefa a ser realizada.
-- Exemplos da atividade cerebral registrada da pessoa. Exemplo: um grupo que representa quando ela está surpresa e um quando não está. 
+- Exemplos da atividade cerebral registrada da pessoa. Ex.: um grupo que representa quando ela está surpresa e um quando não está. 
 - Bancos de dados que contenham dados de centenas de pessoas que tiveram o mesmo tipo de fenômeno expresso, que podem ser usados para construir a sua solução.
 
 
@@ -220,18 +219,18 @@ Possui 14 canais, e uma banda de leitura de 0.2Hz a 43Hz
 É um aparelho de baixo custo produzido pela Olimex, com seu uso voltado para alguns tipos de treinamentos mentais e para experimentos simples de ICC. Utiliza apenas 5 eletrodos, sendo 5 passivos ou 4 ativos e um passivo para DLR. Baseado no projeto OpenEGG.
 
 Características:
-
 - Segue as recomendações de design do OpenEGG
 - Apropriado para sinais entre 0.16 Hz e 59.00Hz
 - Compatível com diversas ferramentas de visualização (BrainBay, OpenVibe, ElecGurum foram testados pelos produtores, para outros há uma grande chance se for compatível com OpenEEG ModularEEG firmware P2).
 - Pronto para o uso, testado e calibrado.
 
 ###Open BCI
-
+[Em Breve]
 
 ##Software
 
 ###OpenViBE
+
 Desenvolvido no INRIA e implementado em C++. É voltado para pessoas que não sabem programar, pois é focado na programação visual e na programação de fluxo de dados. Possui um suporte fraco para fluxos complexos de dados, como aprendizado de máquina e processamento adaptativo de sinais.
 Dá suporte a uma grande gama de hardwares para ICC e pode ser utilizado no Linux e no Windows. Por possuir uma estrutura complexa, é difícil de criar scripts para estender ou aumentar suas funcionalidades. 
 
@@ -246,5 +245,4 @@ Pode ser utilizado no MAC OS X, no Windows e no Linux. Possui muitas ferramentas
 ###Lab Streamer Layer 
 
 Sistema unificado de transporte de sinal, sincronização de tempo e coleta de dados distribuído para fins de pesquisa. Utilizado em experimentos de pesquisa que manuseiam redes, sincronização temporal, um quase acesso em tempo real e, opcionalmente, um hardware para a centralização da visualização e da gravação dos dados. Possui versões escritas em C, C++, Python, Java, C# e MATLAB). A biblioteca é de propósito geral, open source, e funciona nos sistemas Windows, Linux e Mac.
-
 Um conjunto de ferramentas escritos em cima da biblioteca está disponível na lab network.
