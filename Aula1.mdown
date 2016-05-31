@@ -1,10 +1,10 @@
 ---
-title: Aula 1 - Introdução às Interfaces Cérebro Computador
-subtitle: Curso Introdutório de Interfaces Cérebro Computador
+title: Aula 1 - Introdução às Interface Cérebro Computador
+subtitle: Curso Introdutório de Interface Cérebro Computador
 author: Msc. Rodrigo Hübner, André Amaro, Victor Alflen.
 ---
 
-# Curso Introdutório de Interfaces Cérebro Computador 
+# Curso Introdutório de Interface Cérebro Computador 
 
 ### Introdução
 O nosso cérebro possui aproximadamente 100 bilhões de neurônios, sendo que cada neurônio tem cerca de 7000 conexões. O comprimento dos filamentos nervosos de um cérebro pode ser estimado em milhões de quilômetros, e tudo isso está contido dentro de um único cérebro, “massa cinzenta” de cerca de 1,4kg. Essa rede de conexões é chamada de “Conectoma”, e mapeá-lo é um dos maiores desafios da neurociência moderna. 
