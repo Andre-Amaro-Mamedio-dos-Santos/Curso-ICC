@@ -143,7 +143,7 @@ As ICCs podem ser utilizadas para diversas finalidades, como:
 
 
 
- -<b> Saúde: </b>Reconhecimento do estágio do sono, neuro reabilitação, etc.
+ - <b> Saúde: </b>Reconhecimento do estágio do sono, neuro reabilitação, etc.
 
 
 
@@ -154,7 +154,7 @@ As ICCs podem ser utilizadas para diversas finalidades, como:
 
 
 
- -<b> Entretenimento: </b>ICCs são usadas no entretenimento principalmente por sua fácil detecção de resposta. Algumas atividades de entretenimento com ICC são os Jogos, “Controle de Pensamento”, etc.
+ - <b> Entretenimento: </b>ICCs são usadas no entretenimento principalmente por sua fácil detecção de resposta. Algumas atividades de entretenimento com ICC são os Jogos, “Controle de Pensamento”, etc.
 ![Aplicação ICC para entretenimento.](Imagens/figura13.jpg)
 
 
