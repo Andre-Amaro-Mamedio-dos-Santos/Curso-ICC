@@ -178,7 +178,7 @@ Há uma razão específica para entender o porquê das ICCs serem complexas. Qua
 
 Um exemplo da alta variabilidade pode ser encontrada em quatro pessoas fazendo a mesma tarefa. Pode-se definir alturas e padrões para as quatro pessoas. Se você utilizar os padrões de uma pessoa em outra, você pode obter uma saída contrária a realidade. Então, é necessário adaptar os padrões para cada pessoa para se fazer um bom trabalho.
 
-##Razões para a variabilidade
+##Razões para a variabilidade de respostas
 
 Existem várias razões para essa variabilidade. Uma delas é que o córtex cerebral é diferente para cada pessoa, até mesmo para gêmeos monozigóticos. Isso acontece da mesma maneira que as impressões digitais.
 Com relação aos mapas funcionais, eles podem ser mais largos ou mais estreitos para determinadas pessoas, ou simplesmente terem pequenas variações de sessão para sessão, devido ao posicionamento dos sensores serem um pouco diferente entre elas.
