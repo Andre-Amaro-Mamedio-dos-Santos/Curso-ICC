@@ -25,8 +25,8 @@ Em relação ao posicionamento do hardware de captação de sinais cerebrais, IC
 - <b>ICC Não-Invasiva: </b>Captação de sinal cerebral através de exames cerebrais que não envolvem contato direto com o cérebro, como o Eletroencefalograma (EEG). 
 
 <figure class="html5">
-<img src = "Imagens/figura1.jpg" width = "300" heigth = "300" align = "center"/>
- <figcaption>Tutorial de HTML5</figcaption>
+<img src = "Imagens/figura1.jpg" width = "800" heigth = "500" align = "center"/>
+ <figcaption align = "center">Tutorial de HTML5</figcaption>
 </figure>
 Quanto as atividades cerebrais do usuário necessárias para o funcionamento, as ICCs são classificadas em:
 - <b>ICC ativa:</b> Deriva de uma atividade concisa do usuário, sem a necessidade de estímulos externos, por exemplo, imaginação motora.
