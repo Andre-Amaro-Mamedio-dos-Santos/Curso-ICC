@@ -5,7 +5,7 @@ author: Msc. Rodrigo Hübner, André Amaro, Victor Alflen.
 ---
 
 # Curso Introdutório de Interfaces Cérebro Computador 
-<div align = "justify">
+
 ### Introdução
 O nosso cérebro possui aproximadamente 100 bilhões de neurônios, sendo que cada neurônio tem cerca de 7000 conexões. O comprimento dos filamentos nervosos de um cérebro pode ser estimado em milhões de quilômetros, e tudo isso está contido dentro de um único cérebro, “massa cinzenta” de cerca de 1,4kg. Essa rede de conexões é chamada de “Conectoma”, e mapeá-lo é um dos maiores desafios da neurociência moderna. 
 
@@ -267,4 +267,3 @@ Pode ser utilizado no MAC OS X, no Windows e no Linux. Possui muitas ferramentas
 
 Sistema unificado de transporte de sinal, sincronização de tempo e coleta de dados distribuído para fins de pesquisa. Utilizado em experimentos de pesquisa que manuseiam redes, sincronização temporal, um quase acesso em tempo real e, opcionalmente, um hardware para a centralização da visualização e da gravação dos dados. Possui versões escritas em C, C++, Python, Java, C# e MATLAB). A biblioteca é de propósito geral, open source, e funciona nos sistemas Windows, Linux e Mac.
 Um conjunto de ferramentas escritos em cima da biblioteca está disponível na lab network.
-</div>
