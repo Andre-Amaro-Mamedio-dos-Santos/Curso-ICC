@@ -4,7 +4,7 @@ subtitle: Curso Introdutório de Interfaces Cérebro Computador
 author: Msc. Rodrigo Hübner, André Amaro, Victor Alflen.
 ---
 
-# Curso Introdutório de Interfaces Cérebro Computador (Faltando legendas nas imagens, bem como tamanho e posicionamento).
+# Curso Introdutório de Interfaces Cérebro Computador 
 
 ### Introdução
 O nosso cérebro possui aproximadamente 100 bilhões de neurônios, sendo que cada neurônio tem cerca de 7000 conexões. O comprimento dos filamentos nervosos de um cérebro pode ser estimado em milhões de quilômetros, e tudo isso está contido dentro de um único cérebro, “massa cinzenta” de cerca de 1,4kg. Essa rede de conexões é chamada de “Conectoma”, e mapeá-lo é um dos maiores desafios da neurociência moderna. 
@@ -93,7 +93,7 @@ Pré-processamento, Extração de características e Detecção e Classificaçã
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura6.jpg" width = "400" heigth = "300"/>
+<img src = "Imagens/figura6.jpg" width = "600" heigth = "600"/>
 <blockquote></blockquote>
  <figcaption> Esquematização do funcionamento de uma ICC - Os sinais capturados são amplificados para serem enviados a um filtro que produz um conjunto de características relevantes, após a filtragem uma interface de controle converte lógicos interpretados em dados semânticos, que são enviados a um controlador de dispositivo qualquer (por exemplo, uma cadeira de rodas automatizada. Por fim, o controlador do dispositivo gera ação desejada pelo usuário. </figcaption>
 </figure>
@@ -124,7 +124,7 @@ As ICCs podem ser utilizadas para diversas finalidades, como:
 <figure class="html5">
 <img src = "Imagens/figura8.jpg" width = "400" heigth = "300"/>
 <blockquote></blockquote>
- <figcaption> aciente utilizando um braço biônico. </figcaption>
+ <figcaption> Paciente utilizando um braço biônico. </figcaption>
 </figure>
 </div>
 
