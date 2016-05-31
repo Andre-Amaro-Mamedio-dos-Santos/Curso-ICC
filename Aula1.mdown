@@ -9,7 +9,7 @@ author: Msc. Rodrigo Hübner, André Amaro, Victor Alflen.
 ### Introdução
 O nosso cérebro possui aproximadamente 100 bilhões de neurônios, sendo que cada neurônio tem cerca de 7000 conexões. O comprimento dos filamentos nervosos de um cérebro pode ser estimado em milhões de quilômetros, e tudo isso está contido dentro de um único cérebro, “massa cinzenta” de cerca de 1,4kg. . Essa rede de conexões é chamada de “Conectoma”, e mapeá-lo é um dos maiores desafios da neurociência moderna. 
 
-### Interface Cérebro Computador (ICC) - Definição e Funcionamento
+# Interface Cérebro Computador (ICC) - Definição e Funcionamento
 
 ICC é um sistema de comunicação natural que gera sinais de controle utilizando sinais cerebrais, isto é, um sistema que traduz a atividade cerebral em comandos para um computador ou outros dispositivos, requerendo, assim, a atuação do sistema nervoso central (encéfalo e medula espinal) e do sistema nervoso periférico (nervos periféricos e terminação nervosas). A ideia é que você controle uma máquina com, simplesmente, seus pensamentos. O objetivo inicial da tecnologia ICC é dar às pessoas paralisadas uma outra maneira de se comunicar, uma forma a não depender do controle muscular.
 <blockquote></blockquote>
@@ -18,7 +18,7 @@ Os meios de transmissão utilizados pelas ICCs são:
 - Canais Eferentes: Meios de transporte que fazem a transmissão de sinais do sistema nervoso central para os periféricos e, futuramente, para os músculos. Desta forma, estes canais são utilizados para o controle dos movimentos.
 - Canais Aferentes: São meios de transporte para transmissão de sinais que possuem uma direção contrária aos canais eferentes, assim, transmitem sinais desde os sensores receptores até o sistema nervoso central. Esses canais são importantes para aprendizagem de habilidades motoras e tarefas hábeis, tais como tocar um instrumento musical.
 
-### Tipos de ICC
+# Tipos de ICC
 Em relação ao posicionamento do hardware de captação de sinais cerebrais, ICCs são classificadas em:
 - <b>ICC invasiva:</b> Interfaces implantadas diretamente no interior do cérebro. Por estar em contato direto, o sinal é de maior qualidade, porém, pode causar cicatrizes no cérebro ou até mesmo matar neurônios. Sendo assim, a aplicação maior destas ICC são voltadas a usuários que realmente necessitem delas, como na implantação de próteses, tanto motoras como visuais.
 - <b>ICC Semi-Invasiva: </b>Geralmente realizados através de eletrocorticograma (ECoG), em que são implantados eletrodos no interior do crânio, porém na parte externa do cérebro. Este método apresenta menor risco cirúrgico e propensão a cicatrizes, se comparado com as ICC invasivas, porém, os sinais obtidos apresentam interferências.
@@ -31,7 +31,7 @@ Quanto as atividades cerebrais do usuário necessárias para o funcionamento, as
 - <b>ICC reativa: </b>Saída da aplicação depende de estímulos  externos, por exemplo SSVEP ou P300.
 - <b>ICC passiva:</b> Gerado por meio de atividades cerebrais involuntárias, com controle sem alguma finalidade específica, por exemplo, estresse e sonolência.
 
-### Estratégias Mentais e Padrões Cerebrais
+# Estratégias Mentais e Padrões Cerebrais
 Medir a atividade cerebral de forma eficaz é um primeiro passo crítico para a interface cérebro-computador. No entanto, medir a atividade não é suficiente, pois a ICC não pode ler a mente ou decifrar pensamentos em geral. A ICC só pode detectar e classificar padrões de atividade nos sinais cerebrais em curso que estão associados com tarefas ou eventos específicos. O que o usuário tem de fazer para produzir esses padrões é determinada pela estratégia mental que o sistema da ICC emprega. A estratégia mental é a base de qualquer interface cérebro-computador. As duas estratégias mentais principais são: Atenção Seletiva e Monitoramento de Imagem.
 - <b>Atenção Seletiva:</b>
 <p>ICCs com base na atenção seletiva requerem estímulos externos fornecidos pelo sistema, como estímulos tácteis ou luzes piscando com diferentes frequências, sendo que cada estímulo está associado com um comando que controla a aplicação ligada a ICC.  Desta forma, a fim de selecionar um comando, o usuário têm a centrar a sua atenção para o estímulo correspondente. 
@@ -42,7 +42,7 @@ Medir a atividade cerebral de forma eficaz é um primeiro passo crítico para a 
 </p>
 - <b>Monitoramento de Imagem:</b>
 
-### Exemplos de ICC
+## Exemplos de ICC
  - <b>Espectroscopia funcional por infravermelho (fNIRS):</b> Faz a medição de oxigênio no cérebro através de sensores de espectrometria. São calculadas as variações nas concentrações de oxiemoglobina (HbO2), deoxiemoglobina (HHb) e hemoglobina total (HbT), o que permite avaliar de forma quantitativa e qualitativa a hemodinâmica e a ativação neural.
 ![Equipamento de Espectroscopia em usuário.](Imagens/figura2.jpg)
 
@@ -61,7 +61,7 @@ Outra característica das interfaces por eletroencefalograma é a sua natureza o
 Em aplicações com EGG, os eletrodos são posicionados de acordo com o Sistema Internacional de posicionamento 10:20 para capturar as diferenças de potencial das diferentes áreas do cérebro.
 ![Sistema de Posicionamento de Eletrodos 10:20.](Imagens/figura5.jpg )
 
-###Processamento de Sinais
+#Processamento de Sinais
 
 A ICC obtém os sinais cerebrais e os processa em tempo real, de modo a detectar padrões que refletem a intenção do usuário.
 Este processamento de sinal é dividido em três fases:
@@ -72,13 +72,13 @@ Pré-processamento, Extração de características e Detecção e Classificaçã
 
 ![Esquematização do funcionamento de uma ICC - Os sinais capturados são amplificados para serem enviados a um filtro que produz um conjunto de características relevantes, após a filtragem uma interface de controle converte lógicos interpretados em dados semânticos, que são enviados a um controlador de dispositivo qualquer (por exemplo, uma cadeira de rodas automatizada. Por fim, o controlador do dispositivo gera ação desejada pelo usuário.](Imagens/figura6.jpg)
 
-### Aspectos do Estado Cognitivo
+## Aspectos do Estado Cognitivo
  - Qualquer aspecto do estado do cérebro físico que pode ser suficientemente medido com um único julgamento.
  - <b>Estado tônico:</b> grau de "relaxamento", carga cognitiva.
  - <b>Estado fásico:</b> atenção alternada, tipo de movimento imaginado.
  - <b>Estado relacionado com o evento: </b>surpreso / não surpreso, erro cometido, evento observado / não observado, etc.
 
-### Áreas de Aplicação e Exemplos
+# Áreas de Aplicação e Exemplos
 As ICCs podem ser utilizadas para diversas finalidades, como:
 
  - <b>Desabilitados severos:</b> Permitir as pessoas severamente debilitadas de movimento uma outra maneira de se comunicar, que não dependa de controle muscular. Ex: Tetraplégicos, Pessoas com ELA (Esclerose Lateral Amiotrófica), etc. Os programas usados nestas aplicações são denominados Speller, e são uma espécie sistema ortográfico baseado em EEG pessoal.
@@ -179,7 +179,7 @@ Há uma razão específica para entender o porquê das ICCs serem complexas. Qua
 
 Um exemplo da alta variabilidade pode ser encontrada em quatro pessoas fazendo a mesma tarefa. Pode-se definir alturas e padrões para as quatro pessoas. Se você utilizar os padrões de uma pessoa em outra, você pode obter uma saída contrária a realidade. Então, é necessário adaptar os padrões para cada pessoa para se fazer um bom trabalho.
 
-###Razões para a variabilidade
+##Razões para a variabilidade
 
 Existem várias razões para essa variabilidade. Uma delas é que o córtex cerebral é diferente para cada pessoa, até mesmo para gêmeos monozigóticos. Isso acontece da mesma maneira que as impressões digitais.
 Com relação aos mapas funcionais, eles podem ser mais largos ou mais estreitos para determinadas pessoas, ou simplesmente terem pequenas variações de sessão para sessão, devido ao posicionamento dos sensores serem um pouco diferente entre elas.
