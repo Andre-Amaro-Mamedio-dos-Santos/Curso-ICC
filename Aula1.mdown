@@ -26,6 +26,7 @@ Em relação ao posicionamento do hardware de captação de sinais cerebrais, IC
 
 <figure class="html5">
 <img src = "Imagens/figura1.jpg" width = "400" heigth = "300" align = "center"/>
+<blockquote></blockquote>
  <figcaption>Tutorial de HTML5</figcaption>
 </figure>
 Quanto as atividades cerebrais do usuário necessárias para o funcionamento, as ICCs são classificadas em:
