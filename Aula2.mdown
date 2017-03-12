@@ -100,14 +100,14 @@ A atividade neural é conduzida para o couro cabeludo e sensores através da té
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura18.png" width = "500" heigth = "380"/>
+<img src = "Imagens/figura18.png" width = "400" heigth = "380"/>
 <blockquote></blockquote>
  <figcaption> Esquematização da técnica de Condução de Volume. </figcaption>
 </figure>
 </div>
 
 <blockquote></blockquote>
-Observação: a função de propagação de pontos de uma fonte *Patch* (fonte qualquer) para o couro cabeludo é extremamente ampla.
+Observação: a função de propagação de pontos de uma fonte qualquer para o couro cabeludo é extremamente ampla.
 <blockquote></blockquote>
 
 <div align = "center">
