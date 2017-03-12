@@ -1,0 +1,224 @@
+---
+title: Aula 2 - Fundamentos do EEG
+subtitle: Curso Introdutório de Interfaces Cérebro Computador
+author: Msc. Rodrigo Hübner, André Amaro.
+---
+
+# Curso Introdutório de Interfaces Cérebro Computador 
+
+### Introdução
+Eletroencefalografia (EEG) é um método de monitoramento eletrofisiológico para registrar a atividade elétrica do cérebro. Trata-se de um método normalmente não-invasivo. Em EEG, os sinais são medidos utilizando-se eletrodos, posicionados na superfície do couro cabeludo, que é sensível a mudanças de potencial ocorridas após a sinapse. Essas mudanças de potencial são criadas em áreas de polarização e despolarização, que se dão quando os neurotransmissores são disparados.
+É importante lembrar que, pelo fato de os eletrodos estarem localizados na superfície do couro cabeludo, o sinal captado recebe interferência de sinais musculares, além de sofrer um espalhamento causado pela reflexão do sinal no crânio. Esta aula aborda os principais fundamentos do EEG. 
+
+### Roteiro 
+ 
+2.1. Processos cerebrais básicos;
+<blockquote></blockquote>
+2.2. Características Espaciais;
+<blockquote></blockquote>
+2.3. Características Temporais;
+<blockquote></blockquote>
+2.4. Fenômenos complexos do EEG;
+<blockquote></blockquote>
+2.5. Artefatos não-cerebrais;
+<blockquote></blockquote>
+2.6. Detecção e Aquisição.
+
+
+<blockquote></blockquote>
+
+## 2.1. Processos cerebrais básicos
+Todas as ICCs operaram com efeitos observáveis da atividade cerebral, exceto o fMRI e fNIRS, já que estes operam em efeitos de processos de disparo neural. EEG, MEG e ECoG só podem detectar atividades neurais de larga escala, por exemplo, 50.000 neurônios disparando em quase sincronia.
+![Milhares de neurônios disparando em simultaneidade.](Imagens/figura14.png)
+
+Os maiores contribuintes para o EEG são as células piramidais, assim chamadas devido ao formato triangular do corpo celular. Orientadas radialmente no córtex (ortogonal à superfície), estas células podem ter diferentes tamanhos, e são consideradas as principais camadas efetores do córtex. As células piramidais têm dois tipos de dendritos, o apical (um só por célula) e basais (vários por célula), e o axônio (sempre só um por neurônio) tem origem na região basal da célula e direção descendente, ganhando a substância branca como fibra eferente do córtex.  No córtex cerebral, os neurônicos piramidais co-alinhados e co-ativados se somam, formando Campos electromagnéticos.
+![Campo eletromagnético formado por neurônios piramidais.](Imagens/figura15.jpg) 
+
+### Processos cerebrais de grande escala 
+Vimos que métodos como EGG podem detectar atividades neurais somente de larga escala. Por exemplo, 50.000 neurônios disparando em quase sincronia. Todavia, quando 50.000 neurônios disparariam de forma sincronizada?  Um evento externo pode desencadear uma cascata de processos neurais (por exemplo, na percepção); um evento interno também à pode desencadear (por exemplo, súbito "aha!"). Além disso, as populações neurais podem sincronizar um padrão de disparo steady-state (estado estável), (por exemplo, oscilações ociosas).
+Potenciais Relacionados ao Evento (ERPs) e processos oscilatórios são os dois principais fenômenos detectáveis para EEG.
+
+### Detectabilidade do sinal
+A causa raiz pode não ser diretamente observável (por exemplo, estruturas cerebrais profundas, poucos neurônios).  Além disso, populações neurais amplamente dispersas são improváveis para exibir sincronia (a menos que seja conectado por tratos de fibras). Desta forma, populações neurais em espaços compactos são mais prováveis para ter sincronização coordenada.  Outro fator que influencia na detectabilidade dos sinais é o cancelamento dos campos eletromagnéticos uns aos outros, o que ocorre frequentemente na amídala, por exemplo.
+
+## 2.2. Características Espaciais
+
+### Regiões anatômicas do cérebro
+O cérebro está dividido em quatro lobos: frontal, parietal, occipital e lobo temporal.
+O sulco central divide o lobo frontal do lobo parietal, separando o giro pré-central do giro pós-central. O lobo temporal é separado do lobo frontal (e pré-frontal) por fissura lateral. O lobo occipital está na parte de trás da
+o cérebro. As  áreas corticais particularmente importantes para ICCs são: áreas motoras, córtex somatosensorial (giro pós-central), e córtex visual. 
+<blockquote></blockquote>
+Para produzir padrões que podem ser detectados, as áreas corticais envolvidas têm de ser suficientemente grande, de modo a que a atividade resultante seja proeminente em comparação com o EEG restante (fundo EEG). Áreas das mãos, pés e a área da língua são relativamente grandes e topograficamente diferentes. 
+![Regiões anatômicas do cérebro.](Imagens/figura16.png)
+
+### Mapeamento Funcional
+Para a maioria das regiões conhecidas existem associações funcionais - o córtex motor é um dos melhores exemplos:
+![Associações funcionais das áreas cortex motor.](Imagens/figura17.png)
+
+### Condução de Volume
+A atividade neural é conduzida para o couro cabeludo e sensores através da técnica de Condução de Volume (transmissão de campos elétricos ou magnéticos de uma fonte de corrente elétrica primária através de tecido biológico para sensores de medição). A Condução de Volume é linear, sendo que cada sensor mede a soma das atividades de cada neurônio. 
+![Esquematização da técnica de Condução de Volume.](Imagens/figura18.png)
+
+Observação: a função de propagação de pontos de uma fonte *Patch* (fonte qualquer) para o couro cabeludo é extremamente ampla.
+![Progragação de sinais de uma fonte para o couro cabeludo.](Imagens/figura19.png)
+
+### Locais de Medição
+Os locais de medição de sinais são definidos pelo Sistema de localização padronizado (sistema 10-20), que utiliza 21 pontos que são marcados dividindo o crânio em proporções de 10% ou 20% do comprimento das distâncias entre os pontos de referência, *nasion* e *inion*no plano medial e os pontos pré-auriculares no plano perpendicular ao crânio. A nomenclatura dos pontos é dada de acordo com a região em que estão localizados, Fp = frontal polar, F = frontal, T = temporal, C = central, P = parietal e O = occipital. Os pontos localizados sobre a linha média são indexados pela letra “z”, de “zero”, os pontos localizados do lado esquerdo da linha média por índices ímpares e à direita por índices pares.
+
+![Sistema localização padronizado 10-20.](Imagens/figura20.png)
+
+O Sistema de localização também define resoluções muito mais altas:
+
+![Pontos definidos pelo Sistema localização padronizado 10-20.](Imagens/figura21.png)
+
+### Mapas reais do couro cabeludo
+Os mapas do couro cabeludo (tensões observadas nos locais do couro cabeludo) permitem a localização da fonte. Os mapas de couro cabeludo de fonte única raramente são observados no sinal bruto, mas podem ser obtidos por processamento de sinal (mais tarde).
+![Visualização da cabeça em 3D.](Imagens/figura22.png)
+![Correspondente em 2D do mapa do couro cabeludo.](Imagens/figura23.png)
+
+### Modelo Dipolo Equivalente
+Um campo eletromagnético sustentado por uma coleção compacta de neurônios (por exemplo, 1 cm2) pode ser modelado como um único dipolo equivalente, isto facilita a localização da fonte de campo. Já coleções maiores, exigem ajustes de dipolo associados.
+![Modelagem de um campo eletromagnético compacto de fonte X.](Imagens/figura24.png)
+![Localização da fonte X.](Imagens/figura25.png)
+
+### Problemas de modelagem de dipolos
+Apesar de ser um método mais simples, a modelagem de dipolos possui diversos problemas, como:
+- Ajustes de alta qualidade são difíceis de alcançar;
+- Requer conhecimentos sobre os locais dos sensores;
+- Requer suposições sobre condutividades do couro cabeludo, crânio, líquido cefalorraquidiano (LCR), tecido cerebral
+- Requer conhecimento da dobra do córtex, a menos que o modelo esférico simplista seja usado;
+- Alguns tecidos cerebrais possuem condutância anisotrópica (propriedades físicas diferentes conforme as diferentes direções);
+- Os mapas do couro cabeludo geralmente não são perfeitos; 
+<blockquote></blockquote>
+Desta forma, pode ser uma soma de múltiplas fontes dipolo, os mapas de couro cabeludo requerem um modelo de fonte distribuída.
+
+### Modelagem de fontes distribuídas
+Permite a obtenção da imagem cortical distribuída com suporte de determinados mapas do couro cabeludo. Oferece ampla gama de metodologias e suposições básicas (sLORETA, Beamforming, Sparse Bayesian Learning, etc…).
+<blockquote></blockquote>
+Veja um exemplo de análise com as diversas metodologias:
+
+![Região cortical analisada.](Imagens/figura26.png)
+
+![Análise com LCMV Beamforming.](Imagens/figura27.png)
+
+![Análise com sLORETA.](Imagens/figura28.png)
+
+![Análise com Sparse Bayesian Learning.](Imagens/figura29.png)
+
+
+
+## 2.3. Características temporais
+
+### Atividade Neural vs. Atividade do couro cabeludo
+Inicialmente, é importante lembrar que, por ser um método não-invasivo, o EEG mede sinais parcialmente alterados em relação aos disparos elétricos dos neurônios. Veja um exemplo comparativo:
+
+Comportamento espinhoso típico de um único neurônio
+![](Imagens/figura30.jpg)
+
+<blockquote></blockquote>
+
+Sinal típico medido em um local do couro cabeludo
+![](Imagens/figura31.jpg)
+
+
+### Potenciais relacionados a eventos (ERPs)
+Um potencial relacionado ao evento (ERP) é a resposta cerebral medida como o resultado direto de um evento sensorial, cognitivo ou motor específico, isto é, qualquer resposta eletrofisiológica estereotipada a um estímulo. 
+Os ERPs podem ser medidos de forma confiável usando eletroencefalografia (EEG). Como o EEG reflete milhares de processos simultâneos no cérebro, a resposta do cérebro a um único estímulo ou evento de interesse não é normalmente visível na gravação EEG de um único ensaio. Assim, para ver a resposta do cérebro a um estímulo, o experimentador deve realizar muitos ensaios e, em seguida, calcular a atividade média das medições. Os ERPs de um único ensaio são muito mais difíceis de identificar.
+
+![Viação dos sinais entre 2 ensaios.](Imagens/figura32.png)
+
+### Processos Oscilatórios
+Mover um membro ou mesmo contrair um único músculo altera a atividade cerebral no córtex. Na verdade, já a preparação do movimento ou a imaginação do movimento altera os chamados ritmos sensório-motor (SMR), que se referem a oscilações na atividade cerebral registrados de áreas somatossensorial e motor. A análise de um EEG é complexa, devido a grande quantidade de informação recebida de cada eletrodo. Diferentes tipos de sinal são classificados de acordo com a frequência, origem e até forma de onda. Embora nenhum destes sinais sejam produzids de forma isolada, determinadas atividades do cérebro fazem com que alguns tipos sobressaltem sobre outros. 
+De acordo com a frequência, existem 5 tipos que são particularmente importantes:
+
+- *delta*: f<4 Hz;
+- *theta*: 4<f<7 Hz,
+- *alpha*: 8<f<12 Hz;
+- *beta*: 12<f<30 Hz; 
+- *gama*: f>30 Hz.
+
+<blockquote></blockquote> 
+f: frenquência do sinal.
+<blockquote></blockquote>
+
+A atividade *alpha* gravada a partir de áreas sensório-motoras também é chamada de atividade *mu*. A diminuição de atividade oscilatória em uma banda de frequência específica é chamada de dessincronização de eventos relacionados (ERD). Correspondentemente, o aumento da atividade oscilatória em uma banda de frequências específicas é chamada de sincronização de eventos relacionados (ERS).
+Padrões ERD / ERS podem ser produzidos por imagética motora, que é a imaginação de movimento sem realmente executar o movimento. As bandas de frequência que são mais importantes para imagética motora em EEG (Eletroencefalograma) são as *mu* e *beta*.  ICCs invasivas, muitas vezes também usam atividades de *gama*, que são difíceis de detectar com eletrodos externos à cabeça.
+
+![Sinal em ritmo alpha.](Imagens/figura33.jpg)
+
+## 2.4. Fenômenos complexos do EEG
+
+### Fontes de EEG separadas via ICA
+O maior problema com EEG é a fraca resolução espacial que resulta da condução de volume de sinais elétricos. Uma mancha cortical de atividade no córtex frontal provavelmente influenciará os sinais de todos os eletrodos EEG. Esta condução de volume impede a localização precisa da fonte e limita a utilidade do EEG, o que é óbvio quando se analisa os potenciais relacionados com eventos (ERPs). 
+<blockquote></blockquote>
+Uma das formas de melhorar a resolução espacial do EEG é a análise de componentes independentes (ICA). Como os ERPs, o ICA é um método para extrair informações úteis dos dados. A ICA separa os dados EEG em componentes maximamente independentes que, ao contrário dos ERPs (que trabalham com a média dos sinais captados), isolam sinais individuais. A localização da fonte pode ser realizada na saída do ICA, que apresenta resultados muito melhores do que os ERPs.
+
+![Extração de informações via ICA.](Imagens/figura34.png)
+
+
+## 2.5. Artefatos não-cerebrais
+Muitas vezes, os sinais medidos pelo EEG sofrem alterações, estas que podem ser: 
+- **Geradas internamente:** pescoço, face e olho, músculos, dipolos do olho, atividade cardíaca, etc.
+- **Geradas externamente:** ruído de linha, picos de equipamentos, etc.
+- **Sensor-relacionado:** balanço do cabo, Ruído térmico, ruído de quantização.
+
+<blockquote></blockquote>
+
+Os Artefatos musculares também influenciam fortemente os sinais captados:
+
+**Alta frequência / banda larga, grande amplitude**
+![Alterações em sinais provocadas pelo conjunto (alta frequência/banda larga).](Imagens/figura35.jpg)
+
+<blockquote></blockquote>
+
+**As projeções do couro cabeludo são espacialmente estereotipadas**
+![Sinais musculares independentes.](Imagens/figura36.png)
+
+<blockquote></blockquote>
+
+**O piscar dos olhos**
+
+O piscar de olhos é um dos principais artefatos do sinal EEG, provocando grande pico e rebote de baixa freqüência, principalmente frontal. Além de acarretar efeitos não lineares no córtex occipital.
+
+![Efeito do piscar de olhos nos sinais captados.](Imagens/figura37.jpg) 
+
+
+
+
+## 2.6. Detecção e Aquisição
+
+### Projetos de sensor EEG
+Grande parte dos sistemas EEG são baseados em gel, sendo que, atualmente, a maioria usa eletrodos ativos. Os eletrodos ativos possuem um pré-amplificador que amplifica os sinais, diminuindo a resistência imposta pelo crânio na passagem de corrente para o eletrodo.
+
+![Eletrodo passivo (baseado em gel).](Imagens/figura38.png)
+![Eletrodo ativo (baseado em gel.)](Imagens/figura39.png)
+
+<blockquote></blockquote>
+
+Contudo, o fato de os eletrodos baseados em gel serem sensíveis a interferências eletromagnéticas, a introdução de ruído no sistema e de implicarem uma preparação prévia da pele assim como os eletrólitos apresentarem problemas toxicológicos, os eletrodos baseados em gel tornam-se menos vantajosos. Desta forma, os sistemas secos (sem gel) estão emergindo rapidamente.
+
+![Pins - g.SAHARA.](Imagens/figura40.png)
+![Bristle Sensors - Grozea et al., 2011.](Imagens/figura41.png)
+![Foam-based sensors - NCTU.](Imagens/figura42.png)
+![Epidermal Electronics - Kim et al., 2011.](Imagens/figura43.png)
+
+
+
+### Digitalização
+Após amplificação (por exemplo, 50000x), o sinal é filtrado por um filtro passa baixo (isto é, que transmite todas as frequências abaixo de um certo valor) usando um filtro analógico e, posteriormente, é digitalmente amostrado em uma taxa fixa:
+
+![Amostragem de um sinal em taxa fixa.](Imagens/figura44.png)
+
+- **Teorema da Amostragem:** De acordo com o Teorema de Nyquist, a quantidade de amostras por unidade de tempo de um sinal, chamada taxa ou freqüência de amostragem, deve ser maior que o dobro da maior freqüência contida no sinal a ser amostrado, para que possa ser reproduzido integralmente sem erro de aliasing. A metade da freqüência de amostragem é chamada freqüência de Nyquist e corresponde ao limite máximo de freqüência do sinal que pode ser reproduzido. Como não é possível garantir que o sinal não contenha sinais acima deste limite ( distorções, interferências, ruídos, etc.), é necessário filtrar o sinal com um filtro passa baixo com frequência de corte igual (ou menor) a freqüência de Nyquist. 
+Contudo, se o a filtragem for feita com frequência de corte maior que o limitado pelo Teorama, ele pode ser reconstruído usando a seguinte função de interpolação:
+
+![](Imagens/figura45.png)
+![](Imagens/figura46.png)
+sendo B = Frequência de Nyquist.
+
+### Acesso baseado em computador
+
+Para acessar os dados adquiridos (sinais) é necessário que se tenha um máquina compatível com o EEG. Tais sinais são acessíveis através de:
+- Programas de gravação específicos do fornecedor (BrainVision, Gravador, ActiView, g.Recorder, etc);
+- Controladores de sistema específicos do fornecedor (Emotiv SDK, BioSemi driver, etc), e/ou
+- Interfaces genéricas do sistema (por exemplo, Porta, cartões A / D, TCP, etc).
