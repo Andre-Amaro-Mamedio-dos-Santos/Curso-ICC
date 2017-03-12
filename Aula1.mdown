@@ -246,7 +246,9 @@ Características:
 - Pronto para o uso, testado e calibrado.
 
 ###Open BCI
-[Em Breve]
+As placas OpenBCI podem ser usadas para medir e registrar a atividade elétrica produzida pelo cérebro ( EEG ), músculos ( EMG ) e coração ( EKG ), e é compatível com eletrodos EEG padrão. As placas podem ser usadas com a OpenBCI GUI de código aberto, ou podem ser integradas com outras ferramentas de processamento de sinal EEG de código aberto. 
+O OpenBCI Cyton Board usa o ADS1299, um circuito integrado desenvolvido pela Texas Instruments para medições biopotenciais, tem resolução de canal de 24 bits, possui 8 canais, e um microcontrolador para o processamento on-board.  
+
 
 ##Software
 
