@@ -100,7 +100,7 @@ A atividade neural é conduzida para o couro cabeludo e sensores através da té
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura18.png" width = "400" heigth = "300"/>
+<img src = "Imagens/figura18.png" width = "500" heigth = "380"/>
 <blockquote></blockquote>
  <figcaption> Esquematização da técnica de Condução de Volume. </figcaption>
 </figure>
@@ -502,7 +502,7 @@ Contudo, se o a filtragem for feita com frequência de corte maior que o limitad
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura46.png" width = "150" heigth = "100"/>
+<img src = "Imagens/figura46.png" width = "220" heigth = "180"/>
 <blockquote></blockquote>
  <figcaption> sendo B = Frequência de Nyquist. </figcaption>
 </figure>
