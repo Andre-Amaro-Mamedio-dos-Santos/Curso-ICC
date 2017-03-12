@@ -7,7 +7,7 @@ author: Msc. Rodrigo Hübner, André Amaro.
 # Curso Introdutório de Interfaces Cérebro Computador 
 
 ### Introdução
-Eletroencefalografia (EEG) é um método de monitoramento eletrofisiológico para registrar a atividade elétrica do cérebro. Trata-se de um método normalmente não-invasivo. Em EEG, os sinais são medidos utilizando-se eletrodos, posicionados na superfície do couro cabeludo, que é sensível a mudanças de potencial ocorridas após a sinapse. Essas mudanças de potencial são criadas em áreas de polarização e despolarização, que se dão quando os neurotransmissores são disparados.
+Eletroencefalograma (EEG) é um método de monitoramento eletrofisiológico para registrar a atividade elétrica do cérebro. Trata-se de um método normalmente não-invasivo. Em EEG, os sinais são medidos utilizando-se eletrodos, posicionados na superfície do couro cabeludo, que é sensível a mudanças de potencial ocorridas após a sinapse. Essas mudanças de potencial são criadas em áreas de polarização e despolarização, que se dão quando os neurotransmissores são disparados.
 É importante lembrar que, pelo fato de os eletrodos estarem localizados na superfície do couro cabeludo, o sinal captado recebe interferência de sinais musculares, além de sofrer um espalhamento causado pela reflexão do sinal no crânio. Esta aula aborda os principais fundamentos do EEG. 
 
 ### Roteiro 
