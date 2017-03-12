@@ -46,7 +46,7 @@ Os maiores contribuintes para o EEG são as células piramidais, assim chamadas 
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura15.jpg" width = "400" heigth = "300"/>
+<img src = "Imagens/figura15.jpg" width = "300" heigth = "250"/>
 <blockquote></blockquote>
  <figcaption> Campo eletromagnético formado por neurônios piramidais. </figcaption>
 </figure>
@@ -179,7 +179,7 @@ Um campo eletromagnético sustentado por uma coleção compacta de neurônios (p
 <figure class="html5">
 <img src = "Imagens/figura24.png" width = "300" heigth = "200"/>
 <blockquote></blockquote>
- <figcaption> Modelagem de um campo eletromagnético compacto de fonte X. </figcaption>
+ <figcaption> Modelagem de um campo eletromagnético compacto de fonte qualquer X. </figcaption>
 </figure>
 </div>
 <blockquote></blockquote>
@@ -335,7 +335,7 @@ Uma das formas de melhorar a resolução espacial do EEG é a análise de compon
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura34.png" width = "400" heigth = "300"/>
+<img src = "Imagens/figura34.png" width = "500" heigth = "300"/>
 <blockquote></blockquote>
  <figcaption> Extração de informações via ICA. </figcaption>
 </figure>
@@ -492,7 +492,7 @@ Contudo, se o a filtragem for feita com frequência de corte maior que o limitad
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura45.png" width = "100" heigth = "70"/>
+<img src = "Imagens/figura45.png" width = "150" heigth = "100"/>
 <blockquote></blockquote>
  <figcaption> </figcaption>
 </figure>
@@ -502,7 +502,7 @@ Contudo, se o a filtragem for feita com frequência de corte maior que o limitad
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura46.png" width = "100" heigth = "70"/>
+<img src = "Imagens/figura46.png" width = "150" heigth = "100"/>
 <blockquote></blockquote>
  <figcaption> sendo B = Frequência de Nyquist. </figcaption>
 </figure>
