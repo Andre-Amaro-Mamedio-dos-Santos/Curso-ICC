@@ -30,6 +30,11 @@ Eletroencefalograma (EEG) é um método de monitoramento eletrofisiológico para
 ## 2.1. Processos cerebrais básicos
 Todas as ICCs operaram com efeitos observáveis da atividade cerebral, exceto o fMRI e fNIRS, já que estes operam em efeitos de processos de disparo neural. EEG, MEG e ECoG só podem detectar atividades neurais de larga escala, por exemplo, 50.000 neurônios disparando em quase sincronia.
 <blockquote></blockquote>
+
+
+<p> <img src=“Imagens/figura14.png” width=“400” height=“400” alt=“Milhares de neurônios disparando em simultaneidade” /> </p>
+
+
 ![Milhares de neurônios disparando em simultaneidade.](Imagens/figura14.png)
 <blockquote></blockquote>
 Os maiores contribuintes para o EEG são as células piramidais, assim chamadas devido ao formato triangular do corpo celular. Orientadas radialmente no córtex (ortogonal à superfície), estas células podem ter diferentes tamanhos, e são consideradas as principais camadas efetores do córtex. As células piramidais têm dois tipos de dendritos, o apical (um só por célula) e basais (vários por célula), e o axônio (sempre só um por neurônio) tem origem na região basal da célula e direção descendente, ganhando a substância branca como fibra eferente do córtex.  No córtex cerebral, os neurônicos piramidais co-alinhados e co-ativados se somam, formando Campos electromagnéticos.
