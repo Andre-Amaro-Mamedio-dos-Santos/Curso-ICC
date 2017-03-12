@@ -504,7 +504,7 @@ Contudo, se o a filtragem for feita com frequência de corte maior que o limitad
 <figure class="html5">
 <img src = "Imagens/figura46.png" width = "220" heigth = "180"/>
 <blockquote></blockquote>
- <figcaption> sendo B = Frequência de Nyquist. </figcaption>
+ <figcaption> , em que: B = Frequência de Nyquist. </figcaption>
 </figure>
 </div>
 
