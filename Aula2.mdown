@@ -29,10 +29,13 @@ Eletroencefalografia (EEG) é um método de monitoramento eletrofisiológico par
 
 ## 2.1. Processos cerebrais básicos
 Todas as ICCs operaram com efeitos observáveis da atividade cerebral, exceto o fMRI e fNIRS, já que estes operam em efeitos de processos de disparo neural. EEG, MEG e ECoG só podem detectar atividades neurais de larga escala, por exemplo, 50.000 neurônios disparando em quase sincronia.
+<blockquote></blockquote>
 ![Milhares de neurônios disparando em simultaneidade.](Imagens/figura14.png)
 <blockquote></blockquote>
 Os maiores contribuintes para o EEG são as células piramidais, assim chamadas devido ao formato triangular do corpo celular. Orientadas radialmente no córtex (ortogonal à superfície), estas células podem ter diferentes tamanhos, e são consideradas as principais camadas efetores do córtex. As células piramidais têm dois tipos de dendritos, o apical (um só por célula) e basais (vários por célula), e o axônio (sempre só um por neurônio) tem origem na região basal da célula e direção descendente, ganhando a substância branca como fibra eferente do córtex.  No córtex cerebral, os neurônicos piramidais co-alinhados e co-ativados se somam, formando Campos electromagnéticos.
+<blockquote></blockquote>
 ![Campo eletromagnético formado por neurônios piramidais.](Imagens/figura15.jpg) 
+<blockquote></blockquote>
 
 ### Processos cerebrais de grande escala 
 Vimos que métodos como EGG podem detectar atividades neurais somente de larga escala. Por exemplo, 50.000 neurônios disparando em quase sincronia. Todavia, quando 50.000 neurônios disparariam de forma sincronizada?  Um evento externo pode desencadear uma cascata de processos neurais (por exemplo, na percepção); um evento interno também à pode desencadear (por exemplo, súbito "aha!"). Além disso, as populações neurais podem sincronizar um padrão de disparo steady-state (estado estável), (por exemplo, oscilações ociosas).
@@ -51,12 +54,13 @@ o cérebro. As  áreas corticais particularmente importantes para ICCs são: ár
 Para produzir padrões que podem ser detectados, as áreas corticais envolvidas têm de ser suficientemente grande, de modo a que a atividade resultante seja proeminente em comparação com o EEG restante (fundo EEG). Áreas das mãos, pés e a área da língua são relativamente grandes e topograficamente diferentes. 
 <blockquote></blockquote>
 ![Regiões anatômicas do cérebro.](Imagens/figura16.png)
+<blockquote></blockquote>
 
 ### Mapeamento Funcional
 Para a maioria das regiões conhecidas existem associações funcionais - o córtex motor é um dos melhores exemplos:
 <blockquote></blockquote>
 ![Associações funcionais das áreas cortex motor.](Imagens/figura17.png)
-
+<blockquote></blockquote>
 ### Condução de Volume
 A atividade neural é conduzida para o couro cabeludo e sensores através da técnica de Condução de Volume (transmissão de campos elétricos ou magnéticos de uma fonte de corrente elétrica primária através de tecido biológico para sensores de medição). A Condução de Volume é linear, sendo que cada sensor mede a soma das atividades de cada neurônio. 
 <blockquote></blockquote>
@@ -65,22 +69,26 @@ A atividade neural é conduzida para o couro cabeludo e sensores através da té
 Observação: a função de propagação de pontos de uma fonte *Patch* (fonte qualquer) para o couro cabeludo é extremamente ampla.
 <blockquote></blockquote>
 ![Progragação de sinais de uma fonte para o couro cabeludo.](Imagens/figura19.png)
+<blockquote></blockquote>
 
 ### Locais de Medição
 Os locais de medição de sinais são definidos pelo Sistema de localização padronizado (sistema 10-20), que utiliza 21 pontos que são marcados dividindo o crânio em proporções de 10% ou 20% do comprimento das distâncias entre os pontos de referência, *nasion* e *inion*no plano medial e os pontos pré-auriculares no plano perpendicular ao crânio. A nomenclatura dos pontos é dada de acordo com a região em que estão localizados, Fp = frontal polar, F = frontal, T = temporal, C = central, P = parietal e O = occipital. Os pontos localizados sobre a linha média são indexados pela letra “z”, de “zero”, os pontos localizados do lado esquerdo da linha média por índices ímpares e à direita por índices pares.
-
+<blockquote></blockquote>
 ![Sistema localização padronizado 10-20.](Imagens/figura20.png)
 <blockquote></blockquote>
 O Sistema de localização também define resoluções muito mais altas: 
 <blockquote></blockquote>
 
 ![Pontos definidos pelo Sistema localização padronizado 10-20.](Imagens/figura21.png)
+<blockquote></blockquote>
 
 ### Mapas reais do couro cabeludo
 Os mapas do couro cabeludo (tensões observadas nos locais do couro cabeludo) permitem a localização da fonte. Os mapas de couro cabeludo de fonte única raramente são observados no sinal bruto, mas podem ser obtidos por processamento de sinal (mais tarde).
+<blockquote></blockquote>
 ![Visualização da cabeça em 3D.](Imagens/figura22.png)
 <blockquote></blockquote>
 ![Correspondente em 2D do mapa do couro cabeludo.](Imagens/figura23.png)
+<blockquote></blockquote>
 
 ### Modelo Dipolo Equivalente
 Um campo eletromagnético sustentado por uma coleção compacta de neurônios (por exemplo, 1 cm2) pode ser modelado como um único dipolo equivalente, isto facilita a localização da fonte de campo. Já coleções maiores, exigem ajustes de dipolo associados.
@@ -88,6 +96,7 @@ Um campo eletromagnético sustentado por uma coleção compacta de neurônios (p
 ![Modelagem de um campo eletromagnético compacto de fonte X.](Imagens/figura24.png)
 <blockquote></blockquote>
 ![Localização da fonte X.](Imagens/figura25.png)
+<blockquote></blockquote>
 
 ### Problemas de modelagem de dipolos
 Apesar de ser um método mais simples, a modelagem de dipolos possui diversos problemas, como:
@@ -104,6 +113,7 @@ Desta forma, pode ser uma soma de múltiplas fontes dipolo, os mapas de couro ca
 Permite a obtenção da imagem cortical distribuída com suporte de determinados mapas do couro cabeludo. Oferece ampla gama de metodologias e suposições básicas (sLORETA, Beamforming, Sparse Bayesian Learning, etc…).
 <blockquote></blockquote>
 Veja um exemplo de análise com as diversas metodologias:
+<blockquote></blockquote>
 
 ![Região cortical analisada.](Imagens/figura26.png)
 <blockquote></blockquote>
@@ -115,7 +125,7 @@ Veja um exemplo de análise com as diversas metodologias:
 <blockquote></blockquote>
 
 ![Análise com Sparse Bayesian Learning.](Imagens/figura29.png)
-
+<blockquote></blockquote>
 
 
 ## 2.3. Características temporais
@@ -124,6 +134,7 @@ Veja um exemplo de análise com as diversas metodologias:
 Inicialmente, é importante lembrar que, por ser um método não-invasivo, o EEG mede sinais parcialmente alterados em relação aos disparos elétricos dos neurônios. Veja um exemplo comparativo:
 
 Comportamento espinhoso típico de um único neurônio
+<blockquote></blockquote>
 ![](Imagens/figura30.jpg)
 
 <blockquote></blockquote>
@@ -131,13 +142,15 @@ Comportamento espinhoso típico de um único neurônio
 Sinal típico medido em um local do couro cabeludo
 <blockquote></blockquote>
 ![](Imagens/figura31.jpg)
+<blockquote></blockquote>
 
 
 ### Potenciais relacionados a eventos (ERPs)
 Um potencial relacionado ao evento (ERP) é a resposta cerebral medida como o resultado direto de um evento sensorial, cognitivo ou motor específico, isto é, qualquer resposta eletrofisiológica estereotipada a um estímulo. 
 Os ERPs podem ser medidos de forma confiável usando eletroencefalografia (EEG). Como o EEG reflete milhares de processos simultâneos no cérebro, a resposta do cérebro a um único estímulo ou evento de interesse não é normalmente visível na gravação EEG de um único ensaio. Assim, para ver a resposta do cérebro a um estímulo, o experimentador deve realizar muitos ensaios e, em seguida, calcular a atividade média das medições. Os ERPs de um único ensaio são muito mais difíceis de identificar.
-
+<blockquote></blockquote>
 ![Viação dos sinais entre 2 ensaios.](Imagens/figura32.png)
+<blockquote></blockquote>
 
 ### Processos Oscilatórios
 Mover um membro ou mesmo contrair um único músculo altera a atividade cerebral no córtex. Na verdade, já a preparação do movimento ou a imaginação do movimento altera os chamados ritmos sensório-motor (SMR), que se referem a oscilações na atividade cerebral registrados de áreas somatossensorial e motor. A análise de um EEG é complexa, devido a grande quantidade de informação recebida de cada eletrodo. Diferentes tipos de sinal são classificados de acordo com a frequência, origem e até forma de onda. Embora nenhum destes sinais sejam produzids de forma isolada, determinadas atividades do cérebro fazem com que alguns tipos sobressaltem sobre outros. 
@@ -157,6 +170,7 @@ A atividade *alpha* gravada a partir de áreas sensório-motoras também é cham
 Padrões ERD / ERS podem ser produzidos por imagética motora, que é a imaginação de movimento sem realmente executar o movimento. As bandas de frequência que são mais importantes para imagética motora em EEG (Eletroencefalograma) são as *mu* e *beta*.  ICCs invasivas, muitas vezes também usam atividades de *gama*, que são difíceis de detectar com eletrodos externos à cabeça.
 <blockquote></blockquote>
 ![Sinal em ritmo alpha.](Imagens/figura33.jpg)
+<blockquote></blockquote>
 
 ## 2.4. Fenômenos complexos do EEG
 
@@ -166,6 +180,7 @@ O maior problema com EEG é a fraca resolução espacial que resulta da conduç�
 Uma das formas de melhorar a resolução espacial do EEG é a análise de componentes independentes (ICA). Como os ERPs, o ICA é um método para extrair informações úteis dos dados. A ICA separa os dados EEG em componentes maximamente independentes que, ao contrário dos ERPs (que trabalham com a média dos sinais captados), isolam sinais individuais. A localização da fonte pode ser realizada na saída do ICA, que apresenta resultados muito melhores do que os ERPs.
 <blockquote></blockquote>
 ![Extração de informações via ICA.](Imagens/figura34.png)
+<blockquote></blockquote>
 
 
 ## 2.5. Artefatos não-cerebrais
@@ -196,7 +211,7 @@ Os Artefatos musculares também influenciam fortemente os sinais captados:
 O piscar de olhos é um dos principais artefatos do sinal EEG, provocando grande pico e rebote de baixa freqüência, principalmente frontal. Além de acarretar efeitos não lineares no córtex occipital.
 <blockquote></blockquote>
 ![Efeito do piscar de olhos nos sinais captados.](Imagens/figura37.jpg) 
-
+<blockquote></blockquote>
 
 
 
@@ -213,6 +228,7 @@ Grande parte dos sistemas EEG são baseados em gel, sendo que, atualmente, a mai
 
 Contudo, o fato de os eletrodos baseados em gel serem sensíveis a interferências eletromagnéticas, a introdução de ruído no sistema e de implicarem uma preparação prévia da pele assim como os eletrólitos apresentarem problemas toxicológicos, os eletrodos baseados em gel tornam-se menos vantajosos. Desta forma, os sistemas secos (sem gel) estão emergindo rapidamente.
 
+<blockquote></blockquote>
 ![Pins - g.SAHARA.](Imagens/figura40.png)
 <blockquote></blockquote>
 ![Bristle Sensors - Grozea et al., 2011.](Imagens/figura41.png)
@@ -220,7 +236,7 @@ Contudo, o fato de os eletrodos baseados em gel serem sensíveis a interferênci
 ![Foam-based sensors - NCTU.](Imagens/figura42.png)
 <blockquote></blockquote>
 ![Epidermal Electronics - Kim et al., 2011.](Imagens/figura43.png)
-
+<blockquote></blockquote>
 
 
 ### Digitalização
@@ -237,6 +253,7 @@ Contudo, se o a filtragem for feita com frequência de corte maior que o limitad
 ![](Imagens/figura46.png)
 <blockquote></blockquote>
 sendo B = Frequência de Nyquist.
+<blockquote></blockquote>
 
 ### Acesso baseado em computador
 
