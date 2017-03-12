@@ -33,7 +33,7 @@ Todas as ICCs operaram com efeitos observáveis da atividade cerebral, exceto o 
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura14.jpg" width = "300" heigth = "200"/>
+<img src = "Imagens/figura14.png" width = "300" heigth = "200"/>
 <blockquote></blockquote>
  <figcaption> Milhares de neurônios disparando em simultaneidade. </figcaption>
 </figure>
@@ -73,7 +73,7 @@ Para produzir padrões que podem ser detectados, as áreas corticais envolvidas 
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura16.jpg" width = "500" heigth = "400"/>
+<img src = "Imagens/figura16.png" width = "500" heigth = "400"/>
 <blockquote></blockquote>
  <figcaption> Regiões anatômicas do cérebro. </figcaption>
 </figure>
@@ -87,7 +87,7 @@ Para a maioria das regiões conhecidas existem associações funcionais - o cór
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura17.jpg" width = "400" heigth = "300"/>
+<img src = "Imagens/figura17.png" width = "400" heigth = "300"/>
 <blockquote></blockquote>
  <figcaption> Associações funcionais das áreas cortex motor. </figcaption>
 </figure>
@@ -100,7 +100,7 @@ A atividade neural é conduzida para o couro cabeludo e sensores através da té
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura18.jpg" width = "400" heigth = "300"/>
+<img src = "Imagens/figura18.png" width = "400" heigth = "300"/>
 <blockquote></blockquote>
  <figcaption> Esquematização da técnica de Condução de Volume. </figcaption>
 </figure>
@@ -112,7 +112,7 @@ Observação: a função de propagação de pontos de uma fonte *Patch* (fonte q
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura19.jpg" width = "400" heigth = "300"/>
+<img src = "Imagens/figura19.png" width = "400" heigth = "300"/>
 <blockquote></blockquote>
  <figcaption> Progragação de sinais de uma fonte para o couro cabeludo. </figcaption>
 </figure>
@@ -126,7 +126,7 @@ Os locais de medição de sinais são definidos pelo Sistema de localização pa
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura20.jpg" width = "450" heigth = "325"/>
+<img src = "Imagens/figura20.png" width = "450" heigth = "325"/>
 <blockquote></blockquote>
  <figcaption> Sistema localização padronizado 10-20. </figcaption>
 </figure>
@@ -139,7 +139,7 @@ O Sistema de localização também define resoluções muito mais altas:
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura21.jpg" width = "500" heigth = "400"/>
+<img src = "Imagens/figura21.png" width = "500" heigth = "400"/>
 <blockquote></blockquote>
  <figcaption> Pontos definidos pelo Sistema localização padronizado 10-20.. </figcaption>
 </figure>
@@ -153,7 +153,7 @@ Os mapas do couro cabeludo (tensões observadas nos locais do couro cabeludo) pe
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura22.jpg" width = "400" heigth = "300"/>
+<img src = "Imagens/figura22.png" width = "400" heigth = "300"/>
 <blockquote></blockquote>
  <figcaption> Visualização da cabeça em 3D. </figcaption>
 </figure>
@@ -164,7 +164,7 @@ Os mapas do couro cabeludo (tensões observadas nos locais do couro cabeludo) pe
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura23.jpg" width = "400" heigth = "300"/>
+<img src = "Imagens/figura23.png" width = "400" heigth = "300"/>
 <blockquote></blockquote>
  <figcaption> Correspondente em 2D do mapa do couro cabeludo. </figcaption>
 </figure>
@@ -177,7 +177,7 @@ Um campo eletromagnético sustentado por uma coleção compacta de neurônios (p
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura24.jpg" width = "300" heigth = "200"/>
+<img src = "Imagens/figura24.png" width = "300" heigth = "200"/>
 <blockquote></blockquote>
  <figcaption> Modelagem de um campo eletromagnético compacto de fonte X. </figcaption>
 </figure>
@@ -186,7 +186,7 @@ Um campo eletromagnético sustentado por uma coleção compacta de neurônios (p
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura25.jpg" width = "300" heigth = "200"/>
+<img src = "Imagens/figura25.png" width = "300" heigth = "200"/>
 <blockquote></blockquote>
  <figcaption> Localização da fonte X.. </figcaption>
 </figure>
@@ -212,7 +212,7 @@ Veja um exemplo de análise com as diversas metodologias:
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura26.jpg" width = "200" heigth = "150"/>
+<img src = "Imagens/figura26.png" width = "200" heigth = "150"/>
 <blockquote></blockquote>
  <figcaption> Região cortical analisada. </figcaption>
 </figure>
@@ -222,7 +222,7 @@ Veja um exemplo de análise com as diversas metodologias:
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura27.jpg" width = "200" heigth = "150"/>
+<img src = "Imagens/figura27.png" width = "200" heigth = "150"/>
 <blockquote></blockquote>
  <figcaption> Análise com LCMV Beamforming. </figcaption>
 </figure>
@@ -231,7 +231,7 @@ Veja um exemplo de análise com as diversas metodologias:
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura28.jpg" width = "200" heigth = "150"/>
+<img src = "Imagens/figura28.png" width = "200" heigth = "150"/>
 <blockquote></blockquote>
  <figcaption> Análise com sLORETA. </figcaption>
 </figure>
@@ -241,7 +241,7 @@ Veja um exemplo de análise com as diversas metodologias:
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura29.jpg" width = "200" heigth = "150"/>
+<img src = "Imagens/figura29.png" width = "200" heigth = "150"/>
 <blockquote></blockquote>
  <figcaption> Análise com Sparse Bayesian Learning. </figcaption>
 </figure>
@@ -289,7 +289,7 @@ Os ERPs podem ser medidos de forma confiável usando eletroencefalografia (EEG).
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura32.jpg" width = "300" heigth = "200"/>
+<img src = "Imagens/figura32.png" width = "300" heigth = "200"/>
 <blockquote></blockquote>
  <figcaption> Viação dos sinais entre 2 ensaios. </figcaption>
 </figure>
@@ -335,7 +335,7 @@ Uma das formas de melhorar a resolução espacial do EEG é a análise de compon
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura34.jpg" width = "400" heigth = "300"/>
+<img src = "Imagens/figura34.png" width = "400" heigth = "300"/>
 <blockquote></blockquote>
  <figcaption> Extração de informações via ICA. </figcaption>
 </figure>
@@ -374,7 +374,7 @@ Os Artefatos musculares também influenciam fortemente os sinais captados:
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura36.jpg" width = "500" heigth = "350"/>
+<img src = "Imagens/figura36.png" width = "500" heigth = "350"/>
 <blockquote></blockquote>
  <figcaption> Sinais musculares independentes. </figcaption>
 </figure>
@@ -407,7 +407,7 @@ Grande parte dos sistemas EEG são baseados em gel, sendo que, atualmente, a mai
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura38.jpg" width = "150" heigth = "75"/>
+<img src = "Imagens/figura38.png" width = "150" heigth = "75"/>
 <blockquote></blockquote>
  <figcaption> Eletrodo passivo (baseado em gel). </figcaption>
 </figure>
@@ -417,7 +417,7 @@ Grande parte dos sistemas EEG são baseados em gel, sendo que, atualmente, a mai
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura39.jpg" width = "150" heigth = "75"/>
+<img src = "Imagens/figura39.png" width = "150" heigth = "75"/>
 <blockquote></blockquote>
  <figcaption> Eletrodo ativo (baseado em gel). </figcaption>
 </figure>
@@ -432,7 +432,7 @@ Contudo, o fato de os eletrodos baseados em gel serem sensíveis a interferênci
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura40.jpg" width = "150" heigth = "75"/>
+<img src = "Imagens/figura40.png" width = "150" heigth = "75"/>
 <blockquote></blockquote>
  <figcaption> Pins - g.SAHARA. </figcaption>
 </figure>
@@ -442,7 +442,7 @@ Contudo, o fato de os eletrodos baseados em gel serem sensíveis a interferênci
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura41.jpg" width = "150" heigth = "75"/>
+<img src = "Imagens/figura41.png" width = "150" heigth = "75"/>
 <blockquote></blockquote>
  <figcaption> Bristle Sensors - Grozea et al., 2011. </figcaption>
 </figure>
@@ -453,7 +453,7 @@ Contudo, o fato de os eletrodos baseados em gel serem sensíveis a interferênci
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura42.jpg" width = "150" heigth = "75"/>
+<img src = "Imagens/figura42.png" width = "150" heigth = "75"/>
 <blockquote></blockquote>
  <figcaption> Foam-based sensors - NCTU. </figcaption>
 </figure>
@@ -464,7 +464,7 @@ Contudo, o fato de os eletrodos baseados em gel serem sensíveis a interferênci
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura43.jpg" width = "200" heigth = "100"/>
+<img src = "Imagens/figura43.png" width = "200" heigth = "100"/>
 <blockquote></blockquote>
  <figcaption> Epidermal Electronics - Kim et al., 2011. </figcaption>
 </figure>
@@ -479,7 +479,7 @@ Após amplificação (por exemplo, 50000x), o sinal é filtrado por um filtro pa
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura44.jpg" width = "300" heigth = "200"/>
+<img src = "Imagens/figura44.png" width = "300" heigth = "200"/>
 <blockquote></blockquote>
  <figcaption> Amostragem de um sinal em taxa fixa. </figcaption>
 </figure>
@@ -492,7 +492,7 @@ Contudo, se o a filtragem for feita com frequência de corte maior que o limitad
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura45.jpg" width = "100" heigth = "70"/>
+<img src = "Imagens/figura45.png" width = "100" heigth = "70"/>
 <blockquote></blockquote>
  <figcaption> </figcaption>
 </figure>
@@ -502,7 +502,7 @@ Contudo, se o a filtragem for feita com frequência de corte maior que o limitad
 
 <div align = "center">
 <figure class="html5">
-<img src = "Imagens/figura46.jpg" width = "100" heigth = "70"/>
+<img src = "Imagens/figura46.png" width = "100" heigth = "70"/>
 <blockquote></blockquote>
  <figcaption> sendo B = Frequência de Nyquist. </figcaption>
 </figure>
