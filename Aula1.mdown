@@ -82,7 +82,7 @@ Em aplicações com EGG, os eletrodos são posicionados de acordo com o Sistema 
 </figure>
 </div>
 
-#Processamento de Sinais
+# Processamento de Sinais
 
 A ICC obtém os sinais cerebrais e os processa em tempo real, de modo a detectar padrões que refletem a intenção do usuário.
 Este processamento de sinal é dividido em três fases:
