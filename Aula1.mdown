@@ -184,7 +184,7 @@ As ICCs podem ser utilizadas para diversas finalidades, como:
 
 
 
-#Desafios científicos 
+# Desafios científicos 
 
 Dificuldades são encontradas quando se trabalha com ICC, sendo estas provenientes da alta complexidade existente.
 
@@ -194,13 +194,13 @@ Os problemas encontrados em ICCs são parecidos com diversos outros encontrados 
  
 Também são encontrados problemas similares em outras áreas, como nas análises de séries temporais, nos sistemas de controle e na robótica. Nos dois últimos a semelhança se dá devido à tentativa de tornar o sistema mais utilizável pelas pessoas.
 
-##Razões para a Complexidade das ICCs
+## Razões para a Complexidade das ICCs
 
 Há uma razão específica para entender o porquê das ICCs serem complexas. Qualquer processamento feito com os dados obtidos de uma ICC depende de uma série de parâmetros, os quais não são conhecidos a priori. Essa incerteza acontece porque os parâmetros podem ser específicos para cada a pessoa, ou específicos para a tarefa que ela está realizando.
 
 Um exemplo da alta variabilidade pode ser encontrada em quatro pessoas fazendo a mesma tarefa. Pode-se definir alturas e padrões para as quatro pessoas. Se você utilizar os padrões de uma pessoa em outra, você pode obter uma saída contrária a realidade. Então, é necessário adaptar os padrões para cada pessoa para se fazer um bom trabalho.
 
-##Razões para a variabilidade de respostas
+## Razões para a variabilidade de respostas
 
 Existem várias razões para essa variabilidade. Uma delas é que o córtex cerebral é diferente para cada pessoa, até mesmo para gêmeos monozigóticos. Isso acontece da mesma maneira que as impressões digitais.
 Com relação aos mapas funcionais, eles podem ser mais largos ou mais estreitos para determinadas pessoas, ou simplesmente terem pequenas variações de sessão para sessão, devido ao posicionamento dos sensores serem um pouco diferente entre elas.
@@ -214,7 +214,7 @@ A ciência ainda não tem um completo entendimento sobre como o cérebro trabalh
 
 Uma situação é específica do EEG: Você pode ter 64 sensores, mas cada sensor dá basicamente a mesma série temporal, com diferenças muito pequenas, que variam conforme a produção do cérebro. Por esta razão, tem que desembaralhar-se os sinais computacionalmente, o que requer algumas estatísticas.
 
-##Consequências
+## Consequências
 
  - É necessário um processamento sofisticado dos sinais.
  - Qualquer coisa que seja feita deve ser estatística, já que se tem muita incerteza quanto ao significado do sinal, já que muitos detalhes não são conhecidos com antecedência.
@@ -226,16 +226,16 @@ As ICC precisam ser calibradas com alguns dados iniciais e alguns parâmetros pr
 - Bancos de dados que contenham dados de centenas de pessoas que tiveram o mesmo tipo de fenômeno expresso, que podem ser usados para construir a sua solução.
 
 
-#Ferramentas disponíveis
+# Ferramentas disponíveis
 
-##Hardware:
+## Hardware:
 
-###Emotiv EPOC+
+### Emotiv EPOC+
 
 Design flexível e adaptável. Comunicação wireless e recarregável, com bateria de lítio que pode durar até 12 horas de uso contínuo. É compatível com Windows, Linux, OSX, Android e iOS. Garante a medição do cérebro inteiro, com uma densa resolução espacial. Acessa medições de performance, comandos mentais e expressões faciais. Eletrodos baseados em solução salina, sem a necessidade do uso de gel. Para se obter os dados brutos do EPOC+, é necessário comprar uma licença. 
 Possui 14 canais, e uma banda de leitura de 0.2Hz a 43Hz
 
-###Olimex EEG SMT
+### Olimex EEG SMT
 
 É um aparelho de baixo custo produzido pela Olimex, com seu uso voltado para alguns tipos de treinamentos mentais e para experimentos simples de ICC. Utiliza apenas 5 eletrodos, sendo 5 passivos ou 4 ativos e um passivo para DLR. Baseado no projeto OpenEGG.
 
@@ -245,27 +245,27 @@ Características:
 - Compatível com diversas ferramentas de visualização (BrainBay, OpenVibe, ElecGurum foram testados pelos produtores, para outros há uma grande chance se for compatível com OpenEEG ModularEEG firmware P2).
 - Pronto para o uso, testado e calibrado.
 
-###Open BCI
+### Open BCI
 As placas OpenBCI podem ser usadas para medir e registrar a atividade elétrica produzida pelo cérebro ( EEG ), músculos ( EMG ) e coração ( EKG ), e é compatível com eletrodos EEG padrão. As placas podem ser usadas com a OpenBCI GUI de código aberto, ou podem ser integradas com outras ferramentas de processamento de sinal EEG de código aberto. 
 O OpenBCI Cyton Board usa o ADS1299, um circuito integrado desenvolvido pela Texas Instruments para medições biopotenciais, tem resolução de canal de 24 bits, possui 8 canais, e um microcontrolador para o processamento on-board.  
 
 
-##Software
+## Software
 
-###OpenViBE
+### OpenViBE
 
 Desenvolvido no INRIA e implementado em C++. É voltado para pessoas que não sabem programar, pois é focado na programação visual e na programação de fluxo de dados. Possui um suporte fraco para fluxos complexos de dados, como aprendizado de máquina e processamento adaptativo de sinais.
 Dá suporte a uma grande gama de hardwares para ICC e pode ser utilizado no Linux e no Windows. Por possuir uma estrutura complexa, é difícil de criar scripts para estender ou aumentar suas funcionalidades. 
 
-###Open BCI GUI
+### Open BCI GUI
 
 Pode ser utilizado no MAC OS X, no Windows e no Linux. Possui muitas ferramentas criadas pela comunidade que são compatíveis com o sistema.
 
-###Open BCI Python library
+### Open BCI Python library
 
 É uma biblioteca em Python para trabalhar com o hardware do OpenBCI. Foi projetada para ser familiar à programação em Python. Tem o propósito de permitir que os programadores acessem a tecnologia do OpenBCI, tanto para coletar dados quanto para escrever programas que usem os dados diretamente, sem a necessidade de um armazenamento anterior.
 
-###Lab Streamer Layer 
+### Lab Streamer Layer 
 
 Sistema unificado de transporte de sinal, sincronização de tempo e coleta de dados distribuído para fins de pesquisa. Utilizado em experimentos de pesquisa que manuseiam redes, sincronização temporal, um quase acesso em tempo real e, opcionalmente, um hardware para a centralização da visualização e da gravação dos dados. Possui versões escritas em C, C++, Python, Java, C# e MATLAB). A biblioteca é de propósito geral, open source, e funciona nos sistemas Windows, Linux e Mac.
 Um conjunto de ferramentas escritos em cima da biblioteca está disponível na lab network.
